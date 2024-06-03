@@ -16,7 +16,6 @@ parseSite.parseHTML = parseHTML
 let dateFormat = 'D MMM YYYY'
 
 function parseHTML(html, articleURLStr) {
-  console.log(articleURLStr)
   if (html.includes('Sorry - Page Not Found')) return null
 
   let $ = load(html)

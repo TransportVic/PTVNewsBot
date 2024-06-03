@@ -18,7 +18,7 @@ async function fetchArticles() {
     ...await fetchNewsFormat('https://www.ptv.vic.gov.au/news-and-events/events/'),
     ...await fetchNewsFormat('https://www.ptv.vic.gov.au/news-and-events/media-releases/'),
     ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/'),
-    // ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/train-and-rail/'),
+    ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/train-and-rail/'),
     ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/tram/'),
     ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/train-stations/')
   ]
