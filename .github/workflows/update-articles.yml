@@ -8,9 +8,16 @@ on:
 
 jobs:
   build:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+      
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
+    
     steps:
     - uses: actions/checkout@v4
       with:
@@ -49,8 +56,23 @@ jobs:
       with:
         commit_message: ':robot: fetch articles'
         branch: master
-        token: ${{ secrets.PAT }}
+        # token: ${{ secrets.PAT }}
 
-        commit_user_name: TransportVic
-        commit_user_email: 47815427+TransportVic@users.noreply.github.com
-        commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
+        # commit_user_name: TransportVic
+        # commit_user_email: 47815427+TransportVic@users.noreply.github.com
+        # commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
+
+    - name: Create temporary directory
+      run: mkdir upload; cp -R articles upload; cp -R assets upload; cp -R files upload
+      
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        # Upload entire repository
+        path: 'upload'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+    
