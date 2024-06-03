@@ -1,0 +1,22 @@
+html {
+  --sans-serif-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  font-family: var(--sans-serif-font-family);
+}
+
+img#article-banner {
+  width: 500px;
+}
+
+img[src^="/assets/operator-logos"] {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+article img {
+  max-width: 800px;
+  height: auto;
+}

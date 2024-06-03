@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "fastest-levenshtein": "^1.0.16",
+    "moment": "^2.30.1",
+    "node-fetch": "^3.3.2",
+    "sanitize-html": "^2.13.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "mocha": "^10.4.0"
+  }
+}

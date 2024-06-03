@@ -1,0 +1,38 @@
+html {
+  --sans-serif-font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  font-family: var(--sans-serif-font-family);
+}
+
+article img {
+  width: 250px;
+}
+
+article a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+article * {
+  color: black;
+}
+
+article h2.art-title {
+  margin-bottom: 0.25rem;
+}
+
+article h3.art-date {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+article p.art-link {
+  color: unset;
+  text-decoration: underline;
+}
