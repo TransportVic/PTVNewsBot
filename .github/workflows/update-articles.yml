@@ -12,7 +12,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        ref: ${{ github.ref }}
+        ref: master
   
     - name: Cache node modules
       id: cache-npm
@@ -46,4 +46,4 @@ jobs:
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: ':robot: fetch articles'
-        branch: ${{ github.ref }}
+        branch: master

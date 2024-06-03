@@ -39,8 +39,6 @@ async function fetchArticles() {
       eventImageFile: data.eventImageFile
     })
 
-    await sleep(3000)
-
     fs.writeFile(path.join(__dirname, '../articles/articles.json'), JSON.stringify(articlesSeen, null, 2))
   }
 }
