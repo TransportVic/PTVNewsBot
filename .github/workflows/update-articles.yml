@@ -55,7 +55,7 @@ jobs:
 
     - uses: stefanzweifel/git-auto-commit-action@v5
       with:
-        commit_message: ':robot: fetch articles'
+        commit_message: ':robot: fetch articles [skip actions]'
         branch: master
         file_pattern: 'articles files raw-articles'
 
@@ -63,17 +63,17 @@ jobs:
         commit_user_email: 47815427+TransportVic@users.noreply.github.com
         commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
 
-    # - name: Create temporary directory
-    #   run: mkdir upload; cp -R articles upload; cp -R assets upload; cp -R files upload
+    - name: Create temporary directory
+      run: mkdir upload; cp -R articles upload; cp -R assets upload; cp -R files upload
       
-    # - name: Setup Pages
-    #   uses: actions/configure-pages@v5
-    # - name: Upload artifact
-    #   uses: actions/upload-pages-artifact@v3
-    #   with:
-    #     # Upload entire repository
-    #     path: 'upload'
-    # - name: Deploy to GitHub Pages
-    #   id: deployment
-    #   uses: actions/deploy-pages@v4
+    - name: Setup Pages
+      uses: actions/configure-pages@v5
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        # Upload entire repository
+        path: 'upload'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
     
