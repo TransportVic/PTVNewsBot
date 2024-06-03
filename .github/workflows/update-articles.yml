@@ -3,7 +3,7 @@ name: Daily fetch script
 on:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '38 13 * * *'
+    - cron:  '8 * * * *'
   workflow_dispatch:
 
 jobs:
@@ -71,7 +71,6 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        # Upload entire repository
         path: 'upload'
     - name: Deploy to GitHub Pages
       id: deployment
