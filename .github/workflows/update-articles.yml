@@ -56,11 +56,12 @@ jobs:
       with:
         commit_message: ':robot: fetch articles'
         branch: master
-        # token: ${{ secrets.PAT }}
+        file_pattern: 'articles files raw-articles'
+        token: ${{ secrets.PAT }}
 
-        # commit_user_name: TransportVic
-        # commit_user_email: 47815427+TransportVic@users.noreply.github.com
-        # commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
+        commit_user_name: TransportVic
+        commit_user_email: 47815427+TransportVic@users.noreply.github.com
+        commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
 
     - name: Create temporary directory
       run: mkdir upload; cp -R articles upload; cp -R assets upload; cp -R files upload
