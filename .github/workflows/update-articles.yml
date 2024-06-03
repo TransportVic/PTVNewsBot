@@ -53,4 +53,4 @@ jobs:
 
         commit_user_name: TransportVic
         commit_user_email: 47815427+TransportVic@users.noreply.github.com
-        commit_author: Author <actions@github.com>
+        commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
