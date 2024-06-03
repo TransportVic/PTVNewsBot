@@ -2,8 +2,7 @@ name: Daily fetch script
 
 on:
   schedule:
-    # * is a special character in YAML so you have to quote this string
-    - cron:  '8 * * * *'
+    - cron: '25 * * * *'
   workflow_dispatch:
 
 jobs:
