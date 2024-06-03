@@ -2,7 +2,7 @@ name: Daily fetch script
 
 on:
   schedule:
-    - cron: '25 * * * *'
+    - cron: '38 8 * * *'
   workflow_dispatch:
 
 jobs:
