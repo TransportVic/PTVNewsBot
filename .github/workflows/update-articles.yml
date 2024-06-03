@@ -50,3 +50,7 @@ jobs:
         commit_message: ':robot: fetch articles'
         branch: master
         token: ${{ secrets.PAT }}
+
+        commit_user_name: TransportVic
+        commit_user_email: 47815427+TransportVic@users.noreply.github.com
+        commit_author: Author <actions@github.com>
