@@ -1649,5 +1649,11 @@
     "title": "Scheduled myki maintenance",
     "description": "We're upgrading the myki system to improve payment card security. You won't be able to access your myki account or top up online from 12:15am to 5am Saturday 22 June while we make improvements.",
     "date": "2024-06-22"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/buses-return-to-grattan-street/",
+    "title": "Buses return to Grattan Street, Parkville",
+    "description": "From 14 July 2024, five bus services will return to Grattan Street, Parkville, improving connectivity for passengers following the reopening of the road to all traffic. ",
+    "date": "2024-07-14"
   }
 ]
