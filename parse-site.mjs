@@ -156,7 +156,7 @@ function parseHTML(html, articleURLStr) {
   if (heroDescription.length) {
     articleDescription = heroDescription.text()
   } else {
-    let firstParagraph = $('p:first-of-type', articleBody)
+    let firstParagraph = $('p:first-of-type', articleBody).first()
     let firstParaText = firstParagraph.text()
 
     let cutoffLength = Math.min(firstParaText.length, articleDescription.length)
