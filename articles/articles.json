@@ -1731,5 +1731,33 @@
     "description": "Public transport is your best way to enjoy the Wallabies taking on the Wales for the International Test Series. Extra services will help you get to and from the AAMI Park on Saturday 13 July.",
     "date": "2024-07-13",
     "eventImageFile": "3769b44d2d2ff0423d62f246b567c8074524bcb1"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/07/19/public-transport-for-round-19-of-the-2024-afl-season/",
+    "title": "Public transport for Round 19 of the 2024 AFL Season",
+    "description": "Public transport is the best way to get to the game during Round 19 of the 2024 AFL season!We strongly encourage you to register your myki. With a registered myki you can protect your myki balance if the card is lost or stolen, check your travel history and manage multiple myki cards in the one account.",
+    "date": "2024-07-19",
+    "eventImageFile": "eec05454fc4a90922e68c0e8f8e4b6dbbad8b37e"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/07/20/public-transport-for-members-raceday-saturday-20-july-2024/",
+    "title": "Public transport for Members Raceday: Saturday 20 July 2024",
+    "description": "Public transport for Members Raceday: Saturday 20 July 2024",
+    "date": "2024-07-20",
+    "eventImageFile": "01fd40abbb3406dcfe401b291879388906cc6381"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/07/20/public-transport-for-the-nrl-round-20-melbourne-storm-v-sydney-roosters-saturday-20th-july-2024/",
+    "title": "Public transport for the NRL Round 20 – Melbourne Storm v Sydney Roosters: Saturday 20th July 2024",
+    "description": "Public transport is your best way to enjoy NRL, as the Melbourne Storm take on the Sydney Roosters. Extra services will help you get to and from the AAMI Park on Saturday 20 July.",
+    "date": "2024-07-20",
+    "eventImageFile": "99c85282a062755e2dc9d03d590b65741fd6decb"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/07/21/public-transport-for-run-melbourne-sunday-21-july-2024/",
+    "title": "Public transport for Run Melbourne: Sunday 21 July 2024",
+    "description": "Public transport is the best way to get to Run Melbourne 2024.",
+    "date": "2024-07-21",
+    "eventImageFile": "01fd40abbb3406dcfe401b291879388906cc6381"
   }
 ]
