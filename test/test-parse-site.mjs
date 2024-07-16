@@ -16,6 +16,7 @@ let albury = readFileSync(path.join(__dirname, '/mock/albury.html'))
 let union = readFileSync(path.join(__dirname, '/mock/beg-lil.html'))
 let gardiner = readFileSync(path.join(__dirname, '/mock/gardiner.html'))
 let latrobe = readFileSync(path.join(__dirname, '/mock/latrobe-street.html'))
+let tramContract = readFileSync(path.join(__dirname, '/mock/tram-contract.html'))
 
 describe('The parseHTML Function on the white night data', () => {
   let data = parseSite.parseHTML(whiteNight, 'https://www.ptv.vic.gov.au/news-and-events/events/2024/06/01/public-transport-for-white-night-ballarat-2024/')
@@ -279,6 +280,38 @@ describe('The parseHTML Function on the latrobe street data', () => {
 
   it('Should correctly parse the article description', () => {
     expect(data.articleDescription).to.contain(`We're delivering 12 level-access tram stops at six locations along La Trobe Street to improve accessibility, passenger safety and service reliability.`)
+  })
+
+  it('Should extract PDF Links for archiving', () => {
+    expect(data.pdfLinks).to.be.empty
+  })
+
+  it('Should extract the category', () => {
+    expect(data.category).to.deep.equal([])
+  })
+})
+
+describe('The parseHTML Function on the tram contract data', () => {
+  let data = parseSite.parseHTML(tramContract, 'https://www.vic.gov.au/melbourne-tram-refranchising?misdirected=1')
+
+  it('Should correctly extract the event name', () => {
+    expect(data.title).to.equal('Melbourne Tram Refranchising')
+  })
+
+  it('Should have a date', () => {
+    expect(data.date).to.equal('2024-06-28')
+  })
+
+  it('Should correctly identify the event image', () => {
+    expect(data.eventImage).to.be.null
+  })
+
+  it('Should correctly parse the article text', () => {
+    expect(data.articleText).to.contain('The 18-month competitive procurement process provided time to deliver reform and the opportunity to drive best value from one of Victoria’s largest')
+  })
+
+  it('Should correctly parse the article description', () => {
+    expect(data.articleDescription).to.contain('The Victorian government has awarded a new long term service contract')
   })
 
   it('Should extract PDF Links for archiving', () => {

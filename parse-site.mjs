@@ -27,10 +27,14 @@ function parseHTML(html, articleURLStr) {
     let heroH1 = $('.transport__model__element__module__modulehero div.hero h1, .transport__model__element__module__modulehero div.hero h2')
     if (heroH1.length) title = $(heroH1[0]).text().trim()
   }
+  if (!title) title = $('[data-cy="hero-title"]').text().trim()
 
   let date
   let dateText = $('.MediaPage__date').text().trim()
   if (dateText.length) date = moment(dateText, 'D MMM YYYY')
+  if ($('[data-cy="updated-date"] time').length) {
+    date = moment($('[data-cy="updated-date"] time').attr('datetime'))
+  }
 
   let images = $('img')
   for (let imageE of images) {
@@ -72,6 +76,7 @@ function parseHTML(html, articleURLStr) {
   let articleBody = $('.element.dnadesign__elemental__models__elementcontent .content-element__content')
   if (!articleBody.length) articleBody = $('.transport__model__element__module__moduletextblock .content-box')
   if (!articleBody.length) articleBody = $('.transport__model__element__module__modulesectiondescription .content')
+  if (!articleBody.length) articleBody = $('.rpl-content')
 
   let testImage = $('.element.transport__model__element__elementimage:first-child img')
   if (testImage.length && !eventImage) {
@@ -152,6 +157,7 @@ function parseHTML(html, articleURLStr) {
   let articleText = articleBody.text().trim()
   let articleDescription = $('meta[name=description]').attr('content')
   let heroDescription = $('.transport__model__element__module__modulehero div.hero h1 ~ p, .transport__model__element__module__modulehero div.hero h2 ~ p')
+  if (!heroDescription.length) heroDescription = $('[data-cy="hero-summary"]')
 
   if (heroDescription.length) {
     articleDescription = heroDescription.text()
