@@ -24,7 +24,7 @@ async function fetchArticles() {
   ]
 
   for (let link of allLinks) {
-    if (articlesSeen.slice(0, -1).some(article => article.link == link)) continue
+    if (articlesSeen.some(article => article.link == link)) continue
 
     let data = await saveArticle(link)
     if (!data) continue
