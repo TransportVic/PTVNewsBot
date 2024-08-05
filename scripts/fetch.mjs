@@ -1,5 +1,5 @@
 import { fetchNewsFormat, fetchImprovementsFormat } from "../fetch-articles.mjs"
-import articlesSeen from '../articles/articles.json' assert { type: 'json' }
+import articlesSeen from '../articles/articles.json' with { type: 'json' }
 import saveArticle from '../download-site.mjs'
 import fs from 'fs/promises'
 import path from "path"

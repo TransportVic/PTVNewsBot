@@ -1,4 +1,4 @@
-import articlesSeen from '../articles/articles.json' assert { type: 'json' }
+import articlesSeen from '../articles/articles.json' with { type: 'json' }
 import fs from 'fs/promises'
 import path from "path"
 import url from 'url'

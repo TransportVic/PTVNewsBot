@@ -1,4 +1,4 @@
-import articlesSeen from './articles.json' assert { type: 'json' }
+import articlesSeen from './articles.json' with { type: 'json' }
 import checksumFile from '../hash.js'
 import fs from 'fs/promises'
 import path from "path"
