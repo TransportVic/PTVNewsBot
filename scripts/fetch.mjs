@@ -4,6 +4,7 @@ import saveArticle from '../download-site.mjs'
 import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
+import moment from 'moment'
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -30,6 +31,8 @@ async function fetchArticles() {
     if (!data) continue
 
     console.log(`Found new article ${data.title}`)
+
+    data.date = moment().format('YYYY-MM-DD')
 
     articlesSeen.push({
       link: link,
