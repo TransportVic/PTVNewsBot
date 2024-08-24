@@ -1802,18 +1802,6 @@
     "eventImageFile": "01fd40abbb3406dcfe401b291879388906cc6381"
   },
   {
-    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/route-494-and-495-stop-changes-in-point-cook-south/",
-    "title": "Route 494 and 495 stop changes in Point Cook South",
-    "description": "From Sunday 25 August 2024, routes 494 and 495 will start and end on Alamanda Boulevard near Ivory Avenue in Point Cook south. They will no longer start and end on Featherbrook Drive near Yellowbox Drive. ",
-    "date": "2024-08-25"
-  },
-  {
-    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/new-sunday-services-for-route-612/",
-    "title": "New Sunday services for Route 612",
-    "description": "From Sunday 25 August 2024, Route 612 Box Hill Station – Chadstone via Surrey Hills & Camberwell & Glen Iris will run on Sundays for the first time.",
-    "date": "2024-08-25"
-  },
-  {
     "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/10/public-transport-for-round-22-of-the-2024-afl-season/",
     "title": "Public transport for Round 22 of the 2024 AFL Season",
     "description": "Public transport is the best way to get to the game during Round 22 of the 2024 AFL season!",
@@ -1926,37 +1914,11 @@
     "date": "2021-07-11"
   },
   {
-    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/24/public-transport-for-national-4x4-outdoors-show-saturday-24th-and-sunday-25th-august-2024/",
-    "title": "Public transport for National 4x4 Outdoors Show: Saturday 24th and Sunday 25th August 2024",
-    "description": "Discover off-road campers, caravans, tents, 4X4s, aftermarket accessories, camping gear and more, all in the one spot.  ",
-    "date": "2024-08-15",
-    "eventImageFile": "144fd952d7663f233175a80960bee195c9e2332b"
-  },
-  {
     "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/25/public-transport-for-the-nrl-round-25-melbourne-storm-v-redcliff-dolphins-sunday-25-august-2024/",
     "title": "Public transport for the NRL Round 25 – Melbourne Storm v Redcliff Dolphins: Sunday 25 August 2024",
     "description": "NRL is back at AAMI Park. This matchup is sure to deliver edge-of-your-seat action. Public transport is your best way to enjoy it, as the Melbourne Storm takes on the Redcliff Dolphins. Extra services will help you get to and from AAMI Park on Sunday 25 August. ",
     "date": "2024-08-15",
     "eventImageFile": "99c85282a062755e2dc9d03d590b65741fd6decb"
-  },
-  {
-    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/tram/victoria-and-swanston-street-major-works/",
-    "title": "Victoria and Swanston Street Major Works",
-    "description": "From 10PM Friday 30 August to 5am Monday 16 September there will be disruptions to Swanston Street tram services and full road closures in place while the Department of Transport and Planning (DTP), City of Melbourne (CoM) and Yarra Trams undertake major works to upgrade the Swanston and Victoria streets precincts.  ",
-    "date": "2024-08-16"
-  },
-  {
-    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/23/public-transport-for-round-24-of-the-2024-afl-season/",
-    "title": "Public transport for Round 24 of the 2024 AFL Season",
-    "description": "Public transport is the best way to get to the game during Round 24 of the 2024 AFL season!",
-    "date": "2024-08-19",
-    "eventImageFile": "eec05454fc4a90922e68c0e8f8e4b6dbbad8b37e"
-  },
-  {
-    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/better-bus-connections-for-hastings-and-mornington/",
-    "title": "Better bus connections for Hastings and Mornington",
-    "description": "Have your say and help shape our plans for better bus connections across the peninsula, between Hastings and Mornington.",
-    "date": "2024-08-19"
   },
   {
     "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/24/public-transport-for-the-nrl-round-25-melbourne-storm-v-redcliff-dolphins-saturday-24-august-2024/",
@@ -1969,20 +1931,58 @@
     "link": "https://www.ptv.vic.gov.au/news-and-events/news/2024/08/29/planned-updates-to-the-ptv-app/",
     "title": "Planned updates to the PTV app",
     "description": "We're making minor software updates to the PTV app.",
-    "date": "2024-08-23",
+    "date": "2024-08-24",
     "eventImageFile": "d11fbf669f341c5b811507df3bf31a61dbb14576"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/23/public-transport-for-round-24-of-the-2024-afl-season/",
+    "title": "Public transport for Round 24 of the 2024 AFL Season",
+    "description": "Public transport is the best way to get to the game during Round 24 of the 2024 AFL season!",
+    "date": "2024-08-24",
+    "eventImageFile": "eec05454fc4a90922e68c0e8f8e4b6dbbad8b37e"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/24/public-transport-for-national-4x4-outdoors-show-saturday-24th-and-sunday-25th-august-2024/",
+    "title": "Public transport for National 4x4 Outdoors Show: Saturday 24th and Sunday 25th August 2024",
+    "description": "Discover off-road campers, caravans, tents, 4X4s, aftermarket accessories, camping gear and more, all in the one spot.  ",
+    "date": "2024-08-24",
+    "eventImageFile": "144fd952d7663f233175a80960bee195c9e2332b"
   },
   {
     "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/08/30/public-transport-for-care-expo-melbourne-friday-30th-august-and-saturday-31st-august-2024/",
     "title": "Public transport for Care Expo Melbourne: Friday 30th August and Saturday 31st August 2024",
     "description": "Care Expo Melbourne is proud to showcase the latest in innovation, products and services for healthcare, seniors, disability care, aged care, support, and wellness. No matter your walk of life or experience, Care Expo Melbourne celebrates YOU and links you to experts who can tailor to your needs, or the needs of your loved ones or clients.",
-    "date": "2024-08-23",
+    "date": "2024-08-24",
     "eventImageFile": "01bfa7e141347f60bbc30e16adc268b6d1452a30"
   },
   {
     "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/better-bus-connections-to-vline-in-ararat/",
     "title": "Better bus connections to V/Line in Ararat",
     "description": "From Monday, 16 September 2024, Ararat bus routes 1, 2 and 3 will have a minor timetable change to start 10 minutes earlier on weekdays.",
-    "date": "2024-08-23"
+    "date": "2024-08-24"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/better-bus-connections-for-hastings-and-mornington/",
+    "title": "Better bus connections for Hastings and Mornington",
+    "description": "Have your say and help shape our plans for better bus connections across the peninsula, between Hastings and Mornington.",
+    "date": "2024-08-24"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/tram/victoria-and-swanston-street-major-works/",
+    "title": "Victoria and Swanston Street Major Works",
+    "description": "Victoria and Swanston streets will be closed from 10pm Friday 30 August to 5am, Monday 16 September while we upgrade the precinct. ",
+    "date": "2024-08-24"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/new-sunday-services-for-route-612/",
+    "title": "New Sunday services for Route 612",
+    "description": "From Sunday 25 August 2024, Route 612 Box Hill Station – Chadstone via Surrey Hills & Camberwell & Glen Iris will run on Sundays for the first time.",
+    "date": "2024-08-24"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/route-494-and-495-stop-changes-in-point-cook-south/",
+    "title": "Route 494 and 495 stop changes in Point Cook South",
+    "description": "From Sunday 25 August 2024, routes 494 and 495 will start and end on Alamanda Boulevard near Ivory Avenue in Point Cook south. They will no longer start and end on Featherbrook Drive near Yellowbox Drive. ",
+    "date": "2024-08-24"
   }
 ]
