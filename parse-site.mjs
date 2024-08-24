@@ -203,6 +203,8 @@ function parseHTML(html, articleURLStr) {
     }
   }
 
+  date = moment().format('YYYY-MM-DD')
+
   return {
     title,
     date: date ? date.format('YYYY-MM-DD') : '',

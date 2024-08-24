@@ -32,8 +32,6 @@ async function fetchArticles() {
 
     console.log(`Found new article ${data.title}`)
 
-    data.date = moment().format('YYYY-MM-DD')
-
     articlesSeen.push({
       link: link,
       title: data.title,
