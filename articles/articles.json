@@ -2462,5 +2462,11 @@
     "description": "myki instant top ups through PTV app will be unavailable while planned maintenance take place from 12am to 2am on Saturday 7 December.",
     "date": "2024-12-04",
     "eventImageFile": "f01e4d45271a7ef0c2ba92f7e7e42fbff2d4117c"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2024/12/13/public-transport-for-dom-dolla-friday-13-and-saturday-14-december/",
+    "title": "Public transport for Dom Dolla - Friday 13 and Saturday 14 December",
+    "description": "Extra public transport services are running to and from Dom Dolla at Flemington Racecourse on both days.",
+    "date": "2024-12-10"
   }
 ]
