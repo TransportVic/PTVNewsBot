@@ -49,6 +49,7 @@ async function saveFile(url, dest) {
 async function saveAndChecksum(url, fileName, ext) {
   let filesDir = path.join(__dirname, 'files')
   let tmpDownloadName = path.join(filesDir, fileName)
+
   await saveFile(url, tmpDownloadName)
 
   let checksum = await checksumFile('sha1', tmpDownloadName)

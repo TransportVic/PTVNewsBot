@@ -115,8 +115,14 @@ function parseHTML(html, articleURLStr) {
         hrefURL = url.parse(href)
       }
 
+      if (hrefURL.protocol === 'chrome-extension:') {
+        href = hrefURL.path.slice(1)
+        link.attr('href', href)
+        hrefURL = url.parse(href)
+      }
+
       if (hrefURL.protocol !== 'https:') continue
-      
+
       if (hrefURL.origin === articleURL.origin && hrefURL.pathname === articleURL.pathname && hrefURL.hash) {
         // Update anchor links to just the hash
         link.attr('href', hrefURL.hash)
