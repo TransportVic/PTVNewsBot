@@ -4,7 +4,10 @@ import saveArticle from '../download-site.mjs'
 import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
-import moment from 'moment'
+import { TwitterApi } from 'twitter-api-v2'
+import twitterKeys from './twitter-keys.json' with { type: 'json' }
+
+const twitterClient = new TwitterApi(twitterKeys)
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -31,6 +34,8 @@ async function fetchArticles() {
     if (!data) continue
 
     console.log(`Found new article ${data.title}`)
+
+    await client.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
 
     articlesSeen.push({
       link: link,

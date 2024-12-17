@@ -108,13 +108,15 @@ async function saveArticleData(articleData) {
 
   await fs.writeFile(indexFile, indexHTML)
   await fs.writeFile(dataFile, JSON.stringify(articleData))
+
+  return articleID
 }
 
 async function saveArticle(url) {
   let data = await parseSite(url)
   if (!data) return null
 
-  await saveArticleData(data)
+  data.articleID = await saveArticleData(data)
 
   return data
 }
