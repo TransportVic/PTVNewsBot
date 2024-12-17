@@ -5,12 +5,24 @@ import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
 import { TwitterApi } from 'twitter-api-v2'
-import twitterKeys from '../twitter-keys.json' with { type: 'json' }
-
-const twitterClient = new TwitterApi(twitterKeys)
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
+
+let twitterKeys
+
+try {
+  twitterKeys = JSON.parse(await fs.readFile(path.join(__dirname, 'twitter-keys.json')))
+} catch (e) {
+  twitterKeys = {
+    "appKey": process.env.APP_KEY,
+    "appSecret": process.env.APP_SECRET,
+    "accessToken": process.env.ACCESS_TOKEN,
+    "accessSecret": process.env.ACCESS_SECRET,
+  }
+}
+
+const twitterClient = new TwitterApi(twitterKeys)
 
 function sleep(time) {
   return new Promise(r => setTimeout(r, time))
