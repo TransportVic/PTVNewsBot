@@ -14,7 +14,7 @@ let twitterKeys
 try {
   twitterKeys = JSON.parse(await fs.readFile(path.join(__dirname, 'twitter-keys.json')))
 } catch (e) {
-  twitterKeys = {
+  if (process.env.APP_KEY) twitterKeys = {
     "appKey": process.env.APP_KEY,
     "appSecret": process.env.APP_SECRET,
     "accessToken": process.env.ACCESS_TOKEN,
@@ -47,7 +47,7 @@ async function fetchArticles() {
 
     console.log(`Found new article ${data.title}`)
 
-    await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
+    if (twitterKeys) await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
 
     articlesSeen.push({
       link: link,
