@@ -70,7 +70,7 @@ async function saveAndChecksum(url, fileName, ext) {
 async function saveArticleData(articleData) {
   let articleID = (articleData.date + articleData.title).replace(/[ \/]/g, '-')
   let articleDir = path.join(__dirname, 'articles', articleID)
-  try { await fs.mkdir(articleDir) } catch (e) { return }
+  try { await fs.mkdir(articleDir) } catch (e) { return articleID }
 
   let indexFile = path.join(articleDir, 'index.html')
   let dataFile = path.join(__dirname, 'raw-articles', articleID + '.json')

@@ -5,7 +5,7 @@ import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
 import { TwitterApi } from 'twitter-api-v2'
-import twitterKeys from './twitter-keys.json' with { type: 'json' }
+import twitterKeys from '../twitter-keys.json' with { type: 'json' }
 
 const twitterClient = new TwitterApi(twitterKeys)
 
@@ -35,7 +35,7 @@ async function fetchArticles() {
 
     console.log(`Found new article ${data.title}`)
 
-    await client.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
+    await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
 
     articlesSeen.push({
       link: link,
