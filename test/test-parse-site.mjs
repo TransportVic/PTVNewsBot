@@ -328,7 +328,7 @@ describe('The parseHTML Function on the Australian Open Nigth Bus Disruptions ar
   let data = parseSite.parseHTML(aoNightBus, 'https://www.ptv.vic.gov.au/disruptions/night-buses-for-the-australian-open-2025/')
 
   it('Should correctly extract the event name', () => {
-    expect(data.title).to.equal('Australian Open 2025 night buses ')
+    expect(data.title).to.equal('Australian Open 2025 night buses')
   })
 
   it('Should correctly parse the article text', () => {

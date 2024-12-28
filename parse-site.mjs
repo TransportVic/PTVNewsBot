@@ -28,6 +28,7 @@ function parseHTML(html, articleURLStr) {
     if (heroH1.length) title = $(heroH1[0]).text().trim()
   }
   if (!title) title = $('[data-cy="hero-title"]').text().trim()
+  if (!title) title = $('main > div.container > div > div > div~h1').text().trim()
 
   let date
   let dateText = $('.MediaPage__date').text().trim()
@@ -208,8 +209,6 @@ function parseHTML(html, articleURLStr) {
       else date = moment()
     }
   }
-
-  date = moment().format('YYYY-MM-DD')
 
   return {
     title,

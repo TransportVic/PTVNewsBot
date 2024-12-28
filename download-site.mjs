@@ -4,6 +4,7 @@ import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
 import checksumFile from './hash.js'
+import moment from 'moment'
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -114,8 +115,10 @@ async function saveArticleData(articleData) {
 
 async function saveArticle(url) {
   let data = await parseSite(url)
+  
   if (!data) return null
-
+  
+  data.date = moment().format('YYYY-MM-DD')
   data.articleID = await saveArticleData(data)
 
   return data
