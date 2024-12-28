@@ -17,6 +17,7 @@ let union = readFileSync(path.join(__dirname, '/mock/beg-lil.html'))
 let gardiner = readFileSync(path.join(__dirname, '/mock/gardiner.html'))
 let latrobe = readFileSync(path.join(__dirname, '/mock/latrobe-street.html'))
 let tramContract = readFileSync(path.join(__dirname, '/mock/tram-contract.html'))
+let aoNightBus = readFileSync(path.join(__dirname, '/mock/disruption-ao-bus.html'))
 
 describe('The parseHTML Function on the white night data', () => {
   let data = parseSite.parseHTML(whiteNight, 'https://www.ptv.vic.gov.au/news-and-events/events/2024/06/01/public-transport-for-white-night-ballarat-2024/')
@@ -320,5 +321,17 @@ describe('The parseHTML Function on the tram contract data', () => {
 
   it('Should extract the category', () => {
     expect(data.category).to.deep.equal([])
+  })
+})
+
+describe('The parseHTML Function on the Australian Open Nigth Bus Disruptions article', () => {
+  let data = parseSite.parseHTML(aoNightBus, 'https://www.ptv.vic.gov.au/disruptions/night-buses-for-the-australian-open-2025/')
+
+  it('Should correctly extract the event name', () => {
+    expect(data.title).to.equal('Australian Open 2025 night buses ')
+  })
+
+  it('Should correctly parse the article text', () => {
+    expect(data.articleText).to.contain('This year for the first time, we\'ll be providing bus services on 15 popular transport routes')
   })
 })
