@@ -2669,5 +2669,32 @@
     "title": "Route 903 timetable changes",
     "description": "From Sunday 19 January 2025, Route 903 will have a new timetable to provide a more reliable journey for passengers.",
     "date": "2025-01-03"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2025/01/07/public-transport-for-the-cricket-big-bash-league-melbourne-stars-vs-sydney-sixers-thursday-9-january-2025/",
+    "title": "Public transport for the Cricket Big Bash League Melbourne Stars vs Sydney Sixers: Thursday 9 January 2025",
+    "description": "It's time for a game of BBL cricket! Public transport is your best way to enjoy this, as the Melbourne Stars face off against Sydney Sixers to see who is going to qualify for the final series. Extra services will help you get to and from the MCG on Thursday 9 January.",
+    "date": "2025-01-07",
+    "eventImageFile": "96a39cd41795b9c7dc4111294aa391e1043aebf4"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2025/01/07/public-transport-for-the-cricket-big-bash-league-melbourne-renegades-vs-melbourne-stars-sunday-12-january-2025/",
+    "title": "Public transport for the Cricket Big Bash League Melbourne Renegades vs Melbourne Stars: Sunday 12 January 2025",
+    "description": "Extra services will help you get to and from Marvel Stadium for the Big Bash League match between Melbourne Renegades and Melbourne Stars on Sunday 12 January.",
+    "date": "2025-01-07",
+    "eventImageFile": "96a39cd41795b9c7dc4111294aa391e1043aebf4"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2025/01/07/public-transport-for-the-a-league-round-13-melbourne-victory-v-western-united-friday-10-january-2025/",
+    "title": "Public transport for the A-League Round 13 - Melbourne Victory v Western United: Friday 10 January 2025",
+    "description": "Isuzu UTE A-League Men’s season continues at AAMI Park. Public transport is your best way to enjoy it, as Melbourne Victory take on Western United.  Extra services will help you get to and from the AAMI Park on Friday 10 January 2025.<br />\n",
+    "date": "2025-01-07",
+    "eventImageFile": "ec8fcf27a05cd788978cc83d9912cb39e8b7cab3"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/new-bus-service-for-olivine-and-kalkallo/",
+    "title": "New bus service for Olivine and Kalkallo",
+    "description": "We’re introducing a new bus service between Olivine and Kalkallo that links with Donnybrook Station.",
+    "date": "2025-01-07"
   }
 ]
