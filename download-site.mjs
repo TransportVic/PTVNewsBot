@@ -4,7 +4,8 @@ import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
 import checksumFile from './hash.js'
-import moment from 'moment'
+import moment from 'moment-timezone'
+moment.tz.setDefault('Australia/Melbourne')
 
 const __filename = url.fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
