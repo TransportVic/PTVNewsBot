@@ -53,7 +53,7 @@ let sorted = articlesSeen.sort((a, b) => b.date.localeCompare(a.date))
 let innerHTML = sorted.map(article => {
   let banner = ''
   if (article.eventImageFile) banner = `<img loading="lazy" src="/files/${article.eventImageFile}.jpg">`
-  let articleID = (article.date + article.title).replace(/[ \/]/g, '-')
+  let articleID = (article.date + article.title).replace(/[^\w]/g, '-')
 
   return articleHTML.format(banner, article.title, article.description, `/articles/${articleID}`, article.date)
 })
