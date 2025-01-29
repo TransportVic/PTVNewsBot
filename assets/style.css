@@ -8,6 +8,7 @@ html {
 
 img#article-banner {
   width: 500px;
+  max-width: calc(100vw - 16px);
 }
 
 img[src^="/assets/operator-logos"] {
