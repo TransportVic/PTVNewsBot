@@ -70,7 +70,7 @@ async function saveAndChecksum(url, fileName, ext) {
 }
 
 async function saveArticleData(articleData) {
-  let articleID = (articleData.date + articleData.title).replace(/[ \/]/g, '-')
+  let articleID = (articleData.date + articleData.title).replace(/[^\w]/g, '-')
   let articleDir = path.join(__dirname, 'articles', articleID)
   try { await fs.mkdir(articleDir) } catch (e) { return articleID }
 
