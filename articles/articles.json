@@ -2822,5 +2822,19 @@
     "description": "We're running extra services will help you get to and from Marvel Stadium for Luke Combs on Tour.",
     "date": "2025-02-04",
     "eventImageFile": "4b08106e296adb777bfbf11de6c22711ae24396e"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2025/02/11/stkildafestival/",
+    "title": "Public Transport for the St Kilda Festival: Saturday 15 and Sunday 16 February 2025",
+    "description": "With large crowds expected, public transport is the easiest way to get to and from the St Kilda Festival, with extra trams running between St Kilda and the city on Sunday 16 February.",
+    "date": "2025-02-11",
+    "eventImageFile": "4f8d15efbda6c1dfed4677fa30f17c866b51080d"
+  },
+  {
+    "link": "https://www.ptv.vic.gov.au/news-and-events/events/2025/02/11/getting-to-and-from-the-st-kilda-festival/",
+    "title": "Getting to and from the St Kilda Festival",
+    "description": "Take a train to Southern Cross Station, then catch Route 12a or Route 96a trams to St Kilda.",
+    "date": "2025-02-11",
+    "eventImageFile": "4f8d15efbda6c1dfed4677fa30f17c866b51080d"
   }
 ]
