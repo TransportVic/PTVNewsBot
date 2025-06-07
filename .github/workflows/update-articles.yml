@@ -68,7 +68,7 @@ jobs:
         commit_author: TransportVic <47815427+TransportVic@users.noreply.github.com>
 
     - name: Create temporary directory
-      run: mkdir upload; cp -R articles upload; cp -R assets upload; cp -R files upload
+      run: mkdir upload; cp -R articles upload; cp -R assets upload; cp -R files upload; cp index.html upload
       
     - name: Setup Pages
       uses: actions/configure-pages@v5
