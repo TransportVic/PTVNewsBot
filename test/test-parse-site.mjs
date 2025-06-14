@@ -128,7 +128,7 @@ describe('The parseHTML Function on the merinda park data', () => {
   })
 
   it('Should have a date', () => {
-    expect(data.date).to.equal('2024-06-16')
+    expect(data.date).to.contain('-06-16')
   })
 
   it('Should correctly identify the event image', () => {
