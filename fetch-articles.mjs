@@ -36,7 +36,7 @@ export function extractImprovements(pageHTML, pageURLStr) {
   let $ = load(pageHTML)
   let pageURL = url.parse(pageURLStr)
 
-  let articles = $('.element.dnadesign__elemental__models__elementcontent > div > h3 > a, .element.dnadesign__elemental__models__elementcontent > div > h2 > a')
+  let articles = $('.element.dnadesign__elemental__models__elementcontent a')
   let output = []
 
   for (let articleE of articles) {
