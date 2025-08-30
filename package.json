@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12",
     "fastest-levenshtein": "^1.0.16",
     "moment": "^2.30.1",
     "moment-timezone": "^0.5.46",
