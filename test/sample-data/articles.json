@@ -1,0 +1,254 @@
+{
+  "widgets": [
+    {
+      "rfk_id": "cftw_collection_news",
+      "type": "content_grid",
+      "used_in": "page",
+      "entity": "content",
+      "facet": [
+        {
+          "name": "mode_of_transport",
+          "label": "Mode of Transport",
+          "value": [
+            {
+              "id": "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibW9kZV9vZl90cmFuc3BvcnQiLCJ2YWx1ZSI6IlB1YmxpYyBUcmFuc3BvcnQifQ==",
+              "text": "Public Transport",
+              "count": 16
+            },
+            {
+              "id": "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibW9kZV9vZl90cmFuc3BvcnQiLCJ2YWx1ZSI6IlJvYWQgTmV0d29yayJ9",
+              "text": "Road Network",
+              "count": 8
+            },
+            {
+              "id": "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibW9kZV9vZl90cmFuc3BvcnQiLCJ2YWx1ZSI6IkFjdGl2ZSBUcmFuc3BvcnQifQ==",
+              "text": "Active Transport",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "name": "news_type",
+          "label": "News Type",
+          "value": [
+            {
+              "id": "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibmV3c190eXBlIiwidmFsdWUiOiJQdWJsaWMgdHJhbnNwb3J0IGZvciBldmVudHMifQ==",
+              "text": "Public transport for events",
+              "count": 2
+            },
+            {
+              "id": "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibmV3c190eXBlIiwidmFsdWUiOiJHZW5lcmFsIn0=",
+              "text": "General",
+              "count": 1
+            },
+            {
+              "id": "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibmV3c190eXBlIiwidmFsdWUiOiJNYWpvciBkaXNydXB0aW9ucyJ9",
+              "text": "Major disruptions",
+              "count": 1
+            }
+          ]
+        }
+      ],
+      "content": [
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "News. Industrial action withdrawn. Buses services in Melbourne, Geelong and Ballarat run as normal.Major disruptions. Published date:. 25/08/2025. Industrial action disrupting some bus routes in Melbourne, Geelong and Ballarat from Monday 1 to Friday 5 September has been withdrawn.Bus services, including school routes, will run to a normal timetable.Thank you for your patience. .",
+          "id": "931fd71f-ac29-4c10-ab07-cdc263a1c614",
+          "image_url": "https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/shared/demo/metro-bus-stop-bays-shelter-flag-hybrid.jpg?h=386&iar=0&w=580",
+          "meta_description": "Buses services in Melbourne, Geelong and Ballarat run as normal.",
+          "name": "Industrial action withdrawn",
+          "primary_keywords": "Industrial action",
+          "published_timestamp": 1756080000000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/industrial-action-to-disrupt-buses-in-early-september"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "Public Transport. News. Public transport works this spring. Work on major transport infrastructure projects may impact the way you travel around Melbourne and across the state. . Published date:. 25/08/2025. As part of Victoria’s Big Build, major construction has finished on three of the five new Metro Tunnel underground stations and trial operations will continue ahead of opening. Works continue to remove dangerous and congested level crossings. . As the West Gate Tunnel nears completion, works continues to widen the West Gate Freeway from 8 to 12 lanes, while road upgrades are in progress across the north and south east as part of Big Build Roads. Tunnelling continues on the North East Link and upgrades are underway on the Eastern Freeway and M80 Ring Road.  Early works will continue to prepare for tunnelling on Suburban Rail Loop East, while Yarra Trams track renewal will take place on various routes across the tram network. . For more information about planned disruptions, visit Victoria’s Big Build. . . Major disruptions. Be sure to plan ahead and allow more time for travel during major works this autumn, especially if you’re travelling over the school holiday period.To avoid delays:. plan your journey before you travel using our journey planner. allow extra travel time. consider alternatives if you can and travel outside of peak times where possible.There are also smaller disruptions for essential works happening across the network.See Disruptions. for information on all current and upcoming disruptions across Victoria. . Metropolitan trains. September. Cranbourne and Pakenham lines. Buses replace trains between Parliament, Caulfield and Westall from 9pm Friday 29 August to 5am Saturday 6 September 2025.Buses replace trains between Parliament, Caulfield and. Sunbury line. Buses replace trains between North Melbourne and Sunshine from 8 September to 11 September 2025.Buses replace trains between North Melbourne and Sunshine from 11:30pm Saturday 20 September to last train Wednesday 24 September 2025.Werribee and Williamstown lines. Buses replace trains between North Melbourne and Newport from 11:30pm Saturday 20 September to last train Wednesday 24 September 2025.Hurstbridge line. Buses replace trains between Macleod and Eltham from Friday 12 September to Sunday 14 September 2025.Buses replace trains between Heidelberg and Eltham from Tuesday 30 September to Thursday 30 October 2025.October. Sunbury line. Buses replace trains between North Melbourne and Sunshine from 8:30pm 2 October to last train 2 October 2025.Buses replace trains between North Melbourne and Sunshine from 1:30am Saturday 4 October to last train Sunday 5 October 2025.Buses replace trains between North Melbourne and Sunshine from 1:30am Saturday 25 October to last train Sunday 26 October 2025.Cranbourne and Pakenham lines. Passengers change at Caulfield station for Frankston line services to and from the city from 1am Saturday 4 October to last train Sunday 5 October 2025.Buses replace trains between Caulfield and Westall from 8:30pm 2 October to last train 3 October 2025.Passengers change at Caulfield Station for Frankston line trains to and from the city from 1:30am Saturday 25 October to last train Sunday 26 October 2025.Frankston line. Buses replace trains between Caulfield and Mordialloc from 9pm Friday 24 October to last train Sunday 26 October 2025.November. Hurstbridge line. Buses replace trains between Heidelberg and Eltham from Friday 28 November to Sunday 30 December 2025.Trams. See Disruptions. for information on all current and upcoming disruptions across Victoria. . October. Route 19. Shortened services from East Brunswick to Stop 9 Haymarket from 7pm Monday 6 October to 4:30am Monday 27 October 2025.On Friday and Saturday night buses will replace trams from Stop 9 Haymarket to Stop 1 Flinders Street.Routes 57 & 59. Route 59 trams divert via Peel Street and William Street from 7pm Monday 6 October to 4:30am Monday 27 October 2025.Route 57 trams will run a shortened service from West Maribyrnong to Stop 9 Howard Street from 7pm Monday 6 October to 4:30am Monday 27 October 2025.Regional trains. See Disruptions. for information on all current and upcoming disruptions across Victoria. . October. Gippsland line. Coaches replace trains between Southern Cross and East Pakenham from 9pm Friday 10 October to last train Thursday 23 October 2025. .",
+          "id": "b58827ec-f0da-4b73-ab86-486c7a1a0515",
+          "image_url": "https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/shared/a-tram-travelling.jpg?h=693&iar=0&w=1200",
+          "meta_description": "Work on major transport infrastructure projects may impact the way you travel around Melbourne and across the state.",
+          "name": "Public transport works this spring",
+          "primary_keywords": "public, transport",
+          "published_timestamp": 1756044000000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/public-transport-works-this-spring"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "News. National 4x4 Outdoors Show. Public transport for National 4x4 Outdoors Show from Friday 22 August to Sunday 24 August 2025. Public transport for events. Published date:. 19/08/2025. The National 4x4 Outdoors Show is back! Three massive days to explore thousands of products from the industry's leading outdoor adventure and lifestyle brands. An opportunity to explore off-road camper trailers, caravans and tents, new model 4WDs, camping gear and much more.The event will run: . Friday 22 August: 9am to 5pm. Saturday 23 August: 9am to 5pm. Sunday 24 August: 9am to 4pm. Before you travel. Plan your journey using Journey Planner.  and check Disruptions . for service changes that may affect your journey.Please visit the event website for further event Information here.Friday 22 August 2025. Metropolitan train. Getting to and from Melbourne Showgrounds. Trains will operate from Flinders Street (Platform 8/9), Southern Cross (Platform 13/14), stopping at North Melbourne (Platform 5/6), then express to Melbourne Showgrounds (Platform 1) in both directions. . From 8:50am, services will operate every 40 minutes.The last train to depart from Melbourne Showgrounds will depart at 3:49pm.Metropolitan tram. Getting to and from Melbourne Showgrounds via Route 57. Trams will operate via Route 57 between Stop 01 Flinders Street / Elizabeth Street, stopping via Stop 32 Sandown Road/ Epsom Road via Flemington Road for passengers wishing to alight for the show.Metropolitan bus. Getting to and from Melbourne Showgrounds. . The following bus route travels close to Melbourne Showgrounds: . Route 472. (Williamstown to Moonee Ponds via Footscray). Passengers can catch buses from Footscray Station and alight at Langs Road/Showgrounds. . Plan your journey using Journey Planner. . . Regional train. Getting to Melbourne Showgrounds. Passengers arriving at North Melbourne and Southern Cross stations are advised to change trains and catch a Melbourne Showgrounds service. . Refer to the Metropolitan trains section above for service times and platform information. . Plan your journey using Journey planner. . . Leaving the Melbourne Showgrounds. Passengers are advised to catch any train from Melbourne Showgrounds and alight at Southern Cross or North Melbourne stations and change to a regional train.Refer to the Metropolitan train section above for service times. . Plan your journey using Journey planner. .Saturday 23 August 2025. Metropolitan train. Getting to and from Melbourne Showgrounds. Trains will operate from Southern Cross (Platform 8), stopping at North Melbourne (Platform 1/2), then express to Melbourne Showgrounds (Platform 1) in both directions. . From 8:45am, services will operate every 40 minutes.The last train to depart from Melbourne Showgrounds will depart at 5:10pm.Metropolitan tram. Getting to and from Melbourne Showgrounds via Route 57. Trams will operate via Route 57 between Stop 01 Flinders Street / Elizabeth Street, stopping via Stop 32 Sandown Road/ Epsom Road via Flemington Road for passengers wishing to alight for the show. . Metropolitan bus. Getting to and from Melbourne Showgrounds. The following bus route travels close to Melbourne Showgrounds: . Route 472. (Williamstown to Moonee Ponds via Footscray). Passengers can catch buses from Footscray Station and alight at Langs Road/Showgrounds. . Plan your journey using Journey Planner. . . Regional train. Getting to Melbourne Showgrounds. Passengers arriving at North Melbourne and Southern Cross stations are advised to change trains and catch a Melbourne Showgrounds service. . Refer to the Metropolitan trains section above for service times and platform information. . Plan your journey using Journey planner. . . Leaving the Melbourne Showgrounds. Passengers are advised to catch any train from Melbourne Showgrounds and alight at Southern Cross or North Melbourne stations and change to a regional train. . Refer to the Metropolitan train section above for service times. . Plan your journey using Journey planner. .Sunday 24 August 2025. Metropolitan train. Getting to and from Melbourne Showgrounds. Trains will operate from Southern Cross (Platform 8), stopping at North Melbourne (Platform 1/2), then express to Melbourne Showgrounds (Platform 1) in both directions. . From 8:45am, services will operate every 40 minutes.The last train to depart from Melbourne Showgrounds will depart at 4:10pm.Metropolitan tram. Getting to and from Melbourne Showgrounds via Route 57. Trams will operate via Route 57 between Stop 01 Flinders Street / Elizabeth Street, stopping via Stop 32 Sandown Road/ Epsom Road via Flemington Road for passengers wishing to alight for the show. . Metropolitan bus. Getting to and from Melbourne Showgrounds. The following bus route travels close to Melbourne Showgrounds: . Route 472. (Williamstown to Moonee Ponds via Footscray). Passengers can catch buses from Footscray Station and alight at Langs Road/Showgrounds. . Plan your journey using Journey Planner. . . Regional train. Getting to Melbourne Showgrounds. Passengers arriving at North Melbourne and Southern Cross stations are advised to change trains and catch a Melbourne Showgrounds service. . Refer to the Metropolitan trains section above for service times and platform information. . Plan your journey using Journey planner. . . Leaving the Melbourne Showgrounds. Passengers are advised to catch any train from Melbourne Showgrounds and alight at Southern Cross or North Melbourne stations and change to a regional train. . Refer to the Metropolitan train section above for service times. . Plan your journey using Journey planner. . .",
+          "id": "87179693-fb6b-47e7-8165-fd4a002b48c5",
+          "meta_description": "Public transport for National 4x4 Outdoors Show from Friday 22 August to Sunday 24 August 2025",
+          "name": "National 4x4 Outdoors Show",
+          "primary_keywords": "4x4 Outdoors Show",
+          "published_timestamp": 1755561600000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/national-4x4-outdoors-show"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "Public Transport. News. 87 new train services and more than 1100 new weekly bus services for Gippsland From 14 September 2025, we’re adding 87 new train services and more than 1100 new bus services for Gippsland, giving passengers better frequency and more choice of when to travel. Published date:. 15/08/2025. From 14 September 2025, we’re adding 87 new train services per week on the Gippsland Line between Melbourne and Traralgon. . Trains will run about every 40 minutes between Melbourne and Traralgon from 8 am to 9 pm, seven days a week.Growing communities in Gippsland will benefit from more public transport options and better connections to jobs and education.35 bus routes and 10 coach services will have new timetables, providing better connections and easier transfers between trains and buses.  . We’re adding over 1100 extra bus trips each week across 13 routes in Moe, Morwell, Traralgon, Drouin and Warragul. Buses will come every 40 minutes, making it easier to get to places like Mid Valley Shopping Centre, Moe Plaza, Traralgon Centre Plaza, Centrepoint Shopping Centre and Drouin Central.The new train services follow the completion of the Gippsland Line Upgrade. .To plan your journey:. Download the PTV App. Use the journey planner. Check the new Gippsland Line timetable. or call 1800 800 007. .What’s changing? . Gippsland Line  . 87 new train services per week on the Gippsland Line between Melbourne and Traralgon.We’re adding 55 new services across weekdays (11 every weekday) and 32 new services across weekends (14 on Saturdays and 18 on Sundays).Trains will run around every 40 minutes between Melbourne and Traralgon from 8 am to 9 pm, seven days a week.All Sunday Sale services will now start and end in Bairnsdale.There will be journey time changes for some services.On Sundays, the 10:23 am train from Southern Cross Station to Sale will now extend to Bairnsdale and leave at 12:23 pm. Passengers who catch the 10:23 am Sunday train beyond Traralgon will need to catch the later train at 12:23 pm. A new train service will run from Southern Cross Station to Traralgon 10:23 am.Berwick school trains will continue to run, stopping once in the morning and afternoon on school days. The afternoon train will depart at 4pm instead of 4:17 pm.Bus changes. Route. What’s changing. Route 1 Sale - Sale Hospital via Port of Sale. Timetable change. Route 1 Moe – Traralgon via Morwell. Timetable change. Buses every 20 minutes. 188 new services per week. Route 2 Morwell – Churchill. Timetable change. Buses every 40 minutes. 109 new services per week. Route 3 Traralgon - Churchill. Timetable change. Route 4 Sale Station via Reeve Street. Timetable change. Route 4 Churchill - Boolarra via Yinnar. Timetable change. Route 5 Moe - Traralgon via Yallourn North. Timetable change. Route 6 Traralgon – Traralgon South. Timetable change. Route 7 Loch Sport via Longford. Timetable change. Route 11 Moe – Moe West. Timetable change. Buses every 40 minutes. 39 new services per week. Route 12 Moe - Moe South. Timetable change. Route 13 Moe - Moe North. Timetable change. Route 14 Moe – Newborough via Old Sale Road. ·Timetable change. ·Buses every 40 minutes. ·47 new services per week. Route 15 Moe – Newborough via Dinwoodie Drive. Timetable change. Buses every 40 minutes. 43 new services per week. Route 20 Morwell South. Timetable change. Route 21 Morwell – Mid Valley SC via Crinigan Road. Timetable change. Buses every 40 minutes. 73 new services per week. Route 22 Morwell – Mid Valley SC via Hourgian Road. Timetable change. Buses every 40 minutes. 63 new services per week. Route 30 Churchill Town Service Via Churchill Town Service. Timetable change. Route 80 Warragul Station - Warragul South via West Gippsland Hospital. Timetable change. Buses every 40 minutes. 80 new services per week. Route 81 Warragul Station to Warragul North via Latrobe Street. Timetable change. Buses every 40 minutes. 94 new services per week. Route 82 Warragul Station to Warragul North via Stoddarts Road. Timetable change. Buses every 40 minutes. 102 new services per week. Route 83 Warragul Station - Warragul East via Copelands Road. Timetable change. Buses every 40 minutes. 92 new services per week. Route 85 Warragul Station - Drouin Station via Drouin South. Timetable change. Buses every 40 minutes. 118 new services per week. Route 86 Drouin Station - Drouin North via McNeilly Road. Timetable change. Buses every 40 minutes. 57 new services per week. Yarram - Traralgon via Gormandale. Timetable change. Wonthaggi - Traralgon via Leongatha. Timetable change. Garfield Station to Traralgon Plaza. Timetable change. Drouin North – Drouin – Warragul Station. Timetable change. Warragul Station to Moe. Timetable change. Moe - Garfield Station. Timetable change. Drouin Station to Traralgon Station. Timetable change. Drouin North to Newborough TAFE – Yallourn. Timetable change. Drouin North to Moe - Albert Street. Timetable change. Warragul Station - Poowong East via Drouin & Ripplebrook. Timetable change. Traralgon Station to Drouin North via TAFE Gippsland. Timetable change. Coach changes. Route. What’s changing. Pakenham to Garfield. This service will be removed due to duplication with train services. Warragul to Pakenham . This service will be removed due to duplication with train services. Sale to Traralgon. Timetable change. The 8:47 am Sale to Traralgon and the 1:58 pm Traralgon to Sale coaches will no longer stop in Tyers. These services currently travel via Glengarry W Road and Tyers Road to Traralgon. They will now travel via Traralgon-Maffra Road to Traralgon, matching the route of the other Sale to Traralgon services. Tyers residents can still catch Route 5 Moe to Traralgon via Yallourn North, which will continue to stop in Tyers. Bairnsdale to Marlo. Timetable change. Route change. The Sunday coach that runs between Sale and Marlo will now run between Bairnsdale and Marlo. Passengers travelling to or from Marlo can swap between trains and coaches at Bairnsdale. Genoa to Mallacoota. Timetable change. Bairnsdale to Canberra. Timetable change. Canberra to Traralgon. Timetable change. Lakes Entrance to Batemans Bay. Timetable change. Batemans Bay to Bairnsdale. Timetable change. Marlo to Traralgon. Timetable change.",
+          "id": "44bf9ee9-d817-43b0-98be-472d50d8e9f6",
+          "meta_description": "From 14 September 2025, we’re adding 87 new train services and more than 1100 new bus services for Gippsland, giving passengers better frequency and more choice of when to travel.",
+          "name": "87 new train services and more than 1100 new weekly bus services for Gippsland",
+          "primary_keywords": "14, September, new, train, services",
+          "published_timestamp": 1755180000000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/87-new-train-services-for-gippsland"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "Public Transport. News. More buses more often on route 513, 514 and 517. From 7 September 2025, we’re adding 174 weekly trips across routes 513, 514 and 517 with buses running later into the evening most days of the week. Published date:. 15/08/2025. New timetables will spread trips more evenly across the day, giving you more frequent and regular services. These improvements make it easier to get to work, go shopping or catch the train at Glenroy, Heidelberg, Greensborough, Rosanna and Eltham stations.To plan your journey: . Download the PTV app. Use the journey planner. Check the new Route 513. , 514. and 517. timetables  . or call 1800 800 007. .What’s changing for each route?. Route 513 Eltham – Glenroy via Lower Plenty. 44 new weekly services.Weekend services will run later until 10:52 pm, instead of 9:35 pm.Weekend services will improve to run every 40 minutes on average.On weekends, Route 513 will operate as a short route between Eltham and Heidelberg only.Route 514 Eltham – Glenroy via Greensborough. 48 new weekly services.Saturday services will run later until 10:06 pm, instead of 8:49 pm.Sunday services will run later until 9:23 pm, instead of 8:40 pm.Weekend services will improve to run every 40 minutes on average.Route 517 Northland – St Helena via Viewbank and Greensborough Station. 18 new weekly services.Weekday services will start earlier at 5:41 am, instead of 6:06 am.Saturday services will run later until 10:20 pm, instead of 9:47 pm.Sunday services will run later until 9:50 pm, instead of 9:37 pm. . Download the Route 513 timetable (PDF). Download the Route 514 timetable (PDF). Download the Route 517 timetable (PDF).",
+          "id": "547ba758-af84-4bc8-b749-9c33922b888f",
+          "meta_description": "From 7 September 2025, we’re adding 174 weekly trips across routes 513, 514 and 517 with buses running later into the evening most days of the week.",
+          "name": "More buses more often on route 513, 514 and 517",
+          "primary_keywords": "route, 513, 514, 517",
+          "published_timestamp": 1755180000000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/more-buses-more-often-on-route-513-514-and-517"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "Public Transport. News. More weekend seats for the Bendigo Line. From 14 September 2025, we’re adding additional weekend capacity for Bendigo Line passengers with more trains running with six carriages. Published date:. 15/08/2025. The new Bendigo Line timetable will also give passengers more direct and extended services between Southern Cross, Epsom, Eaglehawk and Echuca.To plan your journey:. Download the PTV App. Use the journey planner. Check the new Bendigo Line timetable. or call 1800 800 007. .What’s changing? . Bendigo Line  . 14 busy weekend services will change from 3-car VLocity trains to 6-car VLocity trains, providing more seats.A new service will depart Epsom at 7:32 pm and arrive at Southern Cross Station at 9:51 pm. The service will operate on weekdays, giving passengers in Epsom a new evening service to Melbourne.The 11:20 pm weekday shuttle from Epsom to Bendigo will be removed. Passengers can catch the new 7:32 pm Epsom to Southern Cross Station service.The 10:06 am weekday service from Southern Cross Station to Bendigo will now travel to Eaglehawk.The 11:06 am weekday Southern Cross Station to Eaglehawk service will run direct to Echuca, no longer stopping at Eaglehawk. This will give passengers in Echuca a new one-seat journey that’s faster.Passengers who usually catch the 11:06 am weekday Southern Cross Station to Eaglehawk service will need to travel an hour earlier at 10:06 am.",
+          "id": "62bafd73-4757-46ca-b5a9-f19d6309ecaa",
+          "meta_description": "From 14 September 2025, we’re adding additional weekend capacity for Bendigo Line passengers with more trains running with six carriages.",
+          "name": "More weekend seats for the Bendigo Line",
+          "primary_keywords": "14, September, 2025, Bendigo, Line",
+          "published_timestamp": 1755180000000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/more-weekend-seats-for-the-bendigo-line"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "Public Transport. News. More buses, more often on Route 390. From 7 September 2025, Route 390 will have 140 new weekly trips and run later into the evening most days of the week. Published date:. 15/08/2025. These improvements make it easier to get to work, go shopping or catch the train at Craigieburn and Mernda stations.To plan your journey:. Download the PTV app. Use the journey planner. Check the new Route 390 timetable. or call 1800 800 007. .What’s changing for Route 390 Mernda Station – Craigieburn Station via Wollert?. 140 new weekly trips.On weekdays, services will run every 20 minutes between 6 am and 7 pm.Weekday services will run later until 12 am, instead of 10:30 pm.Saturday services will run later until 12 am, instead of 10 pm. . Download the Route 390 timetable (PDF).  .",
+          "id": "2e784a36-8fe0-4aa4-acd4-b02fbb6a7012",
+          "meta_description": "From 7 September 2025, Route 390 will have 140 new weekly trips and run later into the evening most days of the week.",
+          "name": "More buses, more often on Route 390",
+          "primary_keywords": "Bus Route 390",
+          "published_timestamp": 1755180000000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/more-buses-more-often-on-route-390"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "News. Care Expo Melbourne. Public transport for Care Expo on Friday 15 and Saturday 16 August 2025. Public transport for events. Published date:. 14/08/2025. The Care Expo Melbourne will be coming to Melbourne at the Melbourne Showgrounds! Public transport is your best way to enjoy it, with extra services to help you get to and from the Melbourne Showgrounds on Friday 15 and Saturday 16 August 2025.The event will run:. Friday 15 August: 9am to 4pm. Saturday 16 August: 9am to 4pm. Before you travel. Plan your journey using Journey Planner.  and check Disruptions . for service changes that may affect your journey.Please visit the event website for further event Information here.Friday 15 August 2025. Metropolitan train. Getting to and from Melbourne Showgrounds. Trains will operate from Flinders Street (Platform 8/9), Southern Cross (Platform 13/14), stopping at North Melbourne (Platform 5/6), then express to Melbourne Showgrounds (Platform 1) in both directions.From 8.50am, services will operate every 40 minutes.The last train to depart from Melbourne Showgrounds will depart at 3.49pm.Metropolitan tram. Getting to and from Melbourne Showgrounds via Route 57. Trams will operate via Route 57 between Stop 01 Flinders Street / Elizabeth Street, stopping via Stop 32 Sandown Road/ Epsom Road via Flemington Road for passengers wishing to alight for the expo.Metropolitan bus. Getting to and from Melbourne Showgrounds. The following bus route travels close to Melbourne Showgrounds: . Route 472. (Williamstown to Moonee Ponds via Footscray). Passengers can catch buses from Footscray Station and alight at Langs Road/Showgrounds. . Plan your journey using Journey Planner. . . Regional train. Getting to Melbourne Showgrounds. Passengers arriving at North Melbourne and Southern Cross stations are advised to change trains and catch a Melbourne Showgrounds service. . Refer to the Metropolitan trains section above for service times and platform information. . Plan your journey using Journey planner. . . Leaving the Melbourne Showgrounds. Passengers are advised to catch any train from Melbourne Showgrounds and alight at Southern Cross or North Melbourne stations and change to a regional train.Refer to the Metropolitan train section above for service times. . Plan your journey using Journey planner. .Saturday 16 August 2025. Metropolitan train. Getting to and from Melbourne Showgrounds. Trains will operate from Flinders Street (Platform 8/9), Southern Cross (Platform 13/14), stopping at North Melbourne (Platform 5/6), then express to Melbourne Showgrounds (Platform 1) in both directions.From 8.40am, services will operate every 40 minutes.The last train to depart from Melbourne Showgrounds will depart at 4.10pm.Metropolitan tram. Getting to and from Melbourne Showgrounds via Route 57. Trams will operate via Route 57 between Stop 01 Flinders Street / Elizabeth Street, stopping via Stop 32 Sandown Road/ Epsom Road via Flemington Road for passengers wishing to alight for the expo. . Metropolitan bus. Getting to and from Melbourne Showgrounds. The following bus route travels close to Melbourne Showgrounds: . Route 472. (Williamstown to Moonee Ponds via Footscray). Passengers can catch buses from Footscray Station and alight at Langs Road/Showgrounds. . Plan your journey using Journey Planner. . . Regional train. Getting to Melbourne Showgrounds. Passengers arriving at North Melbourne and Southern Cross stations are advised to change trains and catch a Melbourne Showgrounds service. . Refer to the Metropolitan trains section above for service times and platform information. . Plan your journey using Journey planner. . . Leaving the Melbourne Showgrounds. Passengers are advised to catch any train from Melbourne Showgrounds and alight at Southern Cross or North Melbourne stations and change to a regional train. . Refer to the Metropolitan train section above for service times. . Plan your journey using Journey planner. .",
+          "id": "e58f1969-32f5-4dab-a057-fc81e11f8fd3",
+          "meta_description": "Public transport for Care Expo on Friday 15 and Saturday 16 August 2025",
+          "name": "Care Expo Melbourne",
+          "primary_keywords": "Care, Expo,",
+          "published_timestamp": 1755129600000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/care-expo-melbourne"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "News. PTV has moved to Transport Victoria!. We've made it easier for everyone to access transport information.General. Published date:. 14/08/2025. Read the transcript. Transport Victoria: a central place for transport information. We’ve made it easier for everyone to access transport information. The PTV website is now part of the Transport Victoria website, creating a single place for transport information, bringing together public transport, roads and active transport.  . You will now find real-time information, journey planning tools and myki services conveniently located on the Transport Victoria website.The website will continue to evolve over time, with new features to enhance the transport experience.What you need to know. Public transport and Journey Planner. There are no changes to how you travel.The Journey Planner. has moved to Transport Victoria, but it will continue to work in the same way you’re used to.  . PTV App. The PTV App. is getting a fresh new look! We’re updating the design to visually align with the Transport Victoria website.  . We’ve also introduced a few customer experience enhancements, including making it easier to receive notifications, and better visibility of when journeys are impacted by bus replacement services. . myki. Your myki will continue working as normal.You can still log in to myki. using the same username and password on the Transport Victoria website.  . View our help article on using password manager to find your myki login. . . Why we have made this change. We’ve listened to customer feedback asking for a simpler, more seamless experience with transport information. The Transport Victoria  website brings together information on public transport, roads, and active transport in one central place.  . In addition, the old PTV website was nearing the end of its life and would have required further reinvestment to maintain. By bringing public transport information under transport.vic.gov.au, we’re reducing duplication and making it easier for you to travel around our great State.Visit VicRoads for registration and licensing services. Visit VicRoads. to complete registration and licensing tasks such as:. renewing a driver’s licence. getting your probationary driver licence. managing vehicle registration. transferring, buying or selling a vehicle or vessel. .myki help. Find your myki password. Use your device's password manager to find and use your myki login and password. . Get started. Forgotten myki username or password in the PTV App. You can use the PTV app to get your username, or reset your password. . Read more.",
+          "id": "4ba5ebf1-8954-423b-b983-e10af882f23e",
+          "image_url": "https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/shared/cyclist-green-bike-lane-woman-city.jpg?h=825&iar=0&w=1237",
+          "meta_description": "We've made it easier for everyone to access transport information.",
+          "name": "PTV has moved to Transport Victoria!",
+          "primary_keywords": "PTV website move Transport Victoria,",
+          "published_timestamp": 1755129600000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/ptv-is-moving-to-transport-victoria"
+        },
+        {
+          "breadcrumbs": [
+            "Home",
+            "News and resources",
+            "News"
+          ],
+          "breadcrumbs_simple": "home/news and resources/news",
+          "description": "News. Southern Cross Station escalator upgrade. We’re upgrading the escalators on the Collins Street end of the metropolitan platforms 9–14 to make them more efficient and reliable. Published date:. 12/08/2025. The upgrade will take place in two stages, starting in late July 2025.Early works (late July 2025 – late September 2025). We’re doing maintenance works at both ends of platforms 9-14 to get ready for the major upgrade.  Works run from 8.30pm to 4.30am. During the works one escalator will go up and one escalator will go down.Main works (8.30pm Monday 29 September 2025 – August 2026). We’re closing one of the three escalators on platforms 9-14 during the main works.Two escalators at the Collins Street end of each platform will operate at any one time.Two escalators at the Bourke Street end of each platform will operate at any one time.All platforms will remain open.Plan ahead and allow extra time. Platforms will be busier than usual during weekday peaks (7am to 10am and 3pm to 7pm). . Escalator operations will change during peak times. So will how you enter and exit the station. . Follow the signage and directions from staff to help everyone safely enter and exit the platforms.You could also consider travelling outside of the morning peak, travelling to another CBD station or catching a tram, if possible.Collins Street escalator operations during weekday morning and afternoon peaks. Weekday morning peak (7am – 10am): No escalators will be going down at the Collins Street end of the platforms. Please use the Bourke Street entrance, a four-minute walk along Spencer Street from the Collins Street entrance.Click to enlarge. Weekday afternoon peak (3pm -7pm):. No escalators will be going up at the Collins Street end of the platforms. Use the Bourke Street end escalators to exit the platform.Click to enlarge. At other times of the day (10am – 3pm and 7pm – 7am): One escalator will be running up and one will be running down.Transiting passengers – use Bourke Street escalators. To interchange to a train on platforms 9 - 14, V/Line and metropolitan passengers should use the Bourke Street escalators to exit the platform.Accessibility. Need help at Southern Cross Station? Travellers Aid can assist. Call Travellers Aid on (03) 9670 2072, book online here. or email [email protected]. .Lifts at both ends of the platform will be available throughout the works. Please give priority to the lifts to people with accessibility needs.Affected train lines. Platforms 9/10:. Mernda and Hurstbridge, Belgrave, Lilydale, Alamein and Glen Waverley lines.Platforms 11/12. : Craigieburn, Upfield and Sunbury, Cranbourne and Pakenham lines.Platforms 13/14: Werribee and Williamstown, and Craigieburn lines.About the escalator upgrade. New, stronger escalators will be installed to ensure the growing number of passengers who use Southern Cross Station can get where they need to go, quickly and safely.The upgraded escalators will move faster, carry more people and be more reliable.Thank you for your patience during the works. . Visit our Southern Cross Station travel information page. for further information about Southern Cross Station.",
+          "id": "0b50d7db-6acb-4e1f-87f5-c9ee5b4e311d",
+          "image_url": "https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/shared/page-images-rectangle/southern-cross-station-passengers-escalators-rectangle.jpg?h=960&iar=0&w=1440",
+          "meta_description": "We’re upgrading the escalators on the Collins Street end of the metropolitan platforms 9–14 to make them more efficient and reliable.",
+          "name": "Southern Cross Station escalator upgrade",
+          "primary_keywords": "Southern, Cross, Station, Escalators, upgrade",
+          "published_timestamp": 1754920800000,
+          "source_id": "1029587",
+          "type": "website_content",
+          "url": "https://transport.vic.gov.au/news-and-resources/news/southern-cross-station-escalator-upgrade"
+        }
+      ],
+      "sort": {
+        "choices": [
+          {
+            "name": "publishedDate_desc",
+            "label": "Newest First"
+          },
+          {
+            "name": "publishedDate_asc",
+            "label": "Oldest First"
+          }
+        ]
+      },
+      "total_item": 16,
+      "limit": 10,
+      "offset": 0,
+      "errors": [
+        {
+          "message": "page not found for uri",
+          "type": "uri_not_found",
+          "severity": "high"
+        }
+      ]
+    }
+  ],
+  "dt": 183,
+  "ts": 1756538879850
+}
