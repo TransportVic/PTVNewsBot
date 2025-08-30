@@ -1,5 +1,5 @@
 import fetch from "node-fetch"
-import parseSite from "./parse-site.mjs"
+import { parseArticle } from "./parse-site.mjs"
 import fs from 'fs/promises'
 import path from "path"
 import url from 'url'
@@ -115,11 +115,11 @@ async function saveArticleData(articleData) {
 }
 
 async function saveArticle(url) {
-  let data = await parseSite(url)
+  let data = await parseArticle(url)
   
   if (!data) return null
   
-  data.date = moment().format('YYYY-MM-DD')
+  // data.date = moment().format('YYYY-MM-DD')
   data.articleID = await saveArticleData(data)
 
   return data

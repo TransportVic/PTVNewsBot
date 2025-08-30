@@ -66,7 +66,7 @@ export async function extractArticles() {
 
   return data.widgets[0].content.filter(Boolean).map(article => ({
     title: article.name,
-    description: article.meta_description,
+    articleDescription: article.meta_description,
     date: moment(article.published_timestamp).format('YYYY-MM-DD'),
     eventImage: article.image_url || null,
     link: article.url,

@@ -1,4 +1,4 @@
-import { fetchNewsFormat, fetchImprovementsFormat } from "../fetch-articles.mjs"
+import { extractArticles } from "../fetch-articles.mjs"
 import articlesSeen from '../articles/articles.json' with { type: 'json' }
 import saveArticle from '../download-site.mjs'
 import fs from 'fs/promises'
@@ -29,20 +29,12 @@ function sleep(time) {
 }
 
 async function fetchArticles() {
-  let allLinks = [
-    ...await fetchNewsFormat('https://www.ptv.vic.gov.au/news-and-events/news/'),
-    ...await fetchNewsFormat('https://www.ptv.vic.gov.au/news-and-events/events/'),
-    ...await fetchNewsFormat('https://www.ptv.vic.gov.au/news-and-events/media-releases/'),
-    ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/'),
-    ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/train-and-rail/'),
-    ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/tram/'),
-    ...await fetchImprovementsFormat('https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/train-stations/')
-  ]
+  let allArticles = await extractArticles()
 
-  for (let link of allLinks) {
-    if (articlesSeen.some(article => article.link == link)) continue
+  for (let article of allArticles) {
+    if (articlesSeen.some(seen => seen.link == article.link)) continue
 
-    let data = await saveArticle(link)
+    let data = await saveArticle(article)
     if (!data) continue
 
     console.log(`Found new article ${data.title}`)
@@ -50,7 +42,7 @@ async function fetchArticles() {
     if (twitterKeys) await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
 
     articlesSeen.push({
-      link: link,
+      link: article,
       title: data.title,
       description: data.articleDescription,
       date: data.date,

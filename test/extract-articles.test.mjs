@@ -21,8 +21,8 @@ describe('extractArticles', () => {
   })
 
   it('identifies the description', function () {
-    expect(this.articles[0].description).to.equal('Buses services in Melbourne, Geelong and Ballarat run as normal.')
-    expect(this.articles[1].description).to.equal('Work on major transport infrastructure projects may impact the way you travel around Melbourne and across the state.')
+    expect(this.articles[0].articleDescription).to.equal('Buses services in Melbourne, Geelong and Ballarat run as normal.')
+    expect(this.articles[1].articleDescription).to.equal('Work on major transport infrastructure projects may impact the way you travel around Melbourne and across the state.')
   })
 
   it('identifies date published', function () {
