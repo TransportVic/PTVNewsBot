@@ -1,0 +1,368 @@
+{
+  "data": {
+    "item": {
+      "rendered": {
+        "sitecore": {
+          "context": {
+            "pageEditing": false,
+            "site": {
+              "name": "TransportWebsite"
+            },
+            "pageState": "normal",
+            "editMode": "chromes",
+            "language": "en",
+            "itemPath": "/news-and-resources/news/public-transport-works-this-spring"
+          },
+          "route": {
+            "name": "Public transport works this spring",
+            "displayName": "Public transport works this spring",
+            "fields": {
+              "Content": {
+                "value": "Work on major transport infrastructure projects may impact the way you travel around Melbourne and across the state.&nbsp;"
+              },
+              "Subtitle": {
+                "value": ""
+              },
+              "Title": {
+                "value": "Public transport works this spring"
+              },
+              "Help and Support Topic": {
+                "value": ""
+              },
+              "News Category": {
+                "value": ""
+              },
+              "Project Status": {
+                "value": ""
+              },
+              "Published Date": {
+                "value": "2025-08-24T14:00:00Z"
+              },
+              "NavigationTitle": {
+                "value": "Public transport works this spring"
+              },
+              "NavigationClass": null,
+              "NavigationFilter": [],
+              "Page Design": null,
+              "SxaTags": [],
+              "URL": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "Featured Image": {
+                "value": {
+                  "src": "https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/shared/a-tram-travelling.jpg?h=693&iar=0&w=1200",
+                  "alt": "a-tram-travelling",
+                  "width": "1200",
+                  "height": "693"
+                }
+              },
+              "Mode Identity": {
+                "value": "Public Transport"
+              },
+              "Mode of Transport": [
+                {
+                  "id": "e46ca7a9-d546-43ab-a9a2-07bd9bb5174b",
+                  "url": "https://localhost/sitecore/templates/user-defined/transportwebsite/modes/enums/modeoftransport/public-transport",
+                  "name": "Public Transport",
+                  "displayName": "Public Transport",
+                  "fields": {
+                    "Value": {
+                      "value": "Public Transport"
+                    }
+                  }
+                }
+              ],
+              "Primary Keywords": {
+                "value": "public, transport"
+              },
+              "Secondary Keywords": {
+                "value": "trains, trams, buses, Vline, regional"
+              },
+              "SEODescription": {
+                "value": ""
+              },
+              "SEOImage": {
+                "value": {}
+              },
+              "SEOTitle": {
+                "value": "Public transport works this spring"
+              },
+              "Hide Sub Title": {
+                "value": false
+              },
+              "Show Background Pattern": {
+                "value": false
+              },
+              "OverrideImage": {
+                "value": {}
+              },
+              "Quick Link Icon": {
+                "value": {}
+              },
+              "Quick Link Title": {
+                "value": ""
+              },
+              "Quick Link Body": {
+                "value": ""
+              },
+              "Show chatbot": {
+                "value": ""
+              }
+            },
+            "databaseName": "master",
+            "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+            "itemId": "b58827ec-f0da-4b73-ab86-486c7a1a0515",
+            "itemLanguage": "en",
+            "itemVersion": 1,
+            "layoutId": "96e5f4ba-a2cf-4a4c-a4e7-64da88226362",
+            "templateId": "9f1f7142-fab5-4e4b-8024-ffb207852b7f",
+            "templateName": "Content Page",
+            "placeholders": {
+              "headless-main": [
+                {
+                  "uid": "d553fb0a-93e5-4030-82b4-98511a2a0e67",
+                  "componentName": "PartialDesignDynamicPlaceholder",
+                  "dataSource": "",
+                  "params": {
+                    "sid": "{D553FB0A-93E5-4030-82B4-98511A2A0E67}",
+                    "ph": "headless-main",
+                    "sig": "sxa-contentpagemain"
+                  },
+                  "placeholders": {
+                    "sxa-contentpagemain": [
+                      {
+                        "uid": "503de15e-2151-4dd5-9b35-1d4001118ff6",
+                        "componentName": "Container",
+                        "dataSource": "",
+                        "params": {
+                          "GridParameters": "col-12",
+                          "FieldNames": "Default",
+                          "DynamicPlaceholderId": "1"
+                        },
+                        "placeholders": {
+                          "container-{*}": [
+                            {
+                              "uid": "d399e0a2-dbca-469b-9c24-1ce359971a91",
+                              "componentName": "Container",
+                              "dataSource": "",
+                              "params": {
+                                "GridParameters": "col-12",
+                                "FieldNames": "Default",
+                                "Styles": "container-gray-background cover-background",
+                                "DynamicPlaceholderId": "5"
+                              },
+                              "placeholders": {
+                                "container-{*}": [
+                                  {
+                                    "uid": "262bba06-1f54-4c5e-ba3f-6924fffa3681",
+                                    "componentName": "Container",
+                                    "dataSource": "",
+                                    "params": {
+                                      "GridParameters": "col-12",
+                                      "FieldNames": "Default",
+                                      "DynamicPlaceholderId": "10"
+                                    },
+                                    "placeholders": {
+                                      "container-{*}": [
+                                        {
+                                          "uid": "527b50b9-572f-4c81-8f1e-35fdf110491c",
+                                          "componentName": "HeroComponent",
+                                          "dataSource": "",
+                                          "params": {
+                                            "GridParameters": "col-12",
+                                            "FieldNames": "Default"
+                                          },
+                                          "fields": {
+                                            "data": {
+                                              "item": {
+                                                "name": "Public transport works this spring",
+                                                "title": {
+                                                  "value": "Public transport works this spring"
+                                                },
+                                                "navigationTitle": {
+                                                  "value": "Public transport works this spring"
+                                                },
+                                                "url": {
+                                                  "value": "/news-and-resources/news/public-transport-works-this-spring"
+                                                },
+                                                "ancestors": [
+                                                  {
+                                                    "name": "News",
+                                                    "title": {
+                                                      "value": "News"
+                                                    },
+                                                    "navigationTitle": {
+                                                      "value": "News"
+                                                    },
+                                                    "url": {
+                                                      "value": "/news-and-resources/news"
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "News and resources",
+                                                    "title": {
+                                                      "value": "News and resources"
+                                                    },
+                                                    "navigationTitle": {
+                                                      "value": "News and resources"
+                                                    },
+                                                    "url": {
+                                                      "value": "/news-and-resources"
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "Home",
+                                                    "title": {
+                                                      "value": "Home"
+                                                    },
+                                                    "navigationTitle": {
+                                                      "value": "Home"
+                                                    },
+                                                    "url": {
+                                                      "value": "/"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "uid": "2084a3ca-a643-411d-bf06-a9217cc3823a",
+                              "componentName": "Container",
+                              "dataSource": "",
+                              "params": {
+                                "GridParameters": "col-12",
+                                "FieldNames": "Contained",
+                                "RenderingIdentifier": "maincontentContainer",
+                                "DynamicPlaceholderId": "2",
+                                "Styles": "mt-2 mt-md-4"
+                              },
+                              "placeholders": {
+                                "container-{*}": [
+                                  {
+                                    "uid": "02340b6d-5ff2-4880-9eb7-3a54cc81a532",
+                                    "componentName": "ColumnSplitter",
+                                    "dataSource": "",
+                                    "params": {
+                                      "ColumnWidth1": "col-12 col-md-8 col-xl-8",
+                                      "ColumnWidth2": "col-12 col-md-4",
+                                      "GridParameters": "col-12",
+                                      "SplitterSize": "2",
+                                      "EnabledPlaceholders": "2,1",
+                                      "RenderingIdentifier": "contentPageDesignMainContentsection",
+                                      "FieldNames": "Default",
+                                      "DynamicPlaceholderId": "8",
+                                      "Styles": "flex-row-reverse "
+                                    },
+                                    "placeholders": {
+                                      "column-1-{*}": [
+                                        {
+                                          "uid": "c2642de1-5cd0-4757-98d2-6bfe27a4799c",
+                                          "componentName": "Container",
+                                          "dataSource": "",
+                                          "params": {
+                                            "GridParameters": "col-12",
+                                            "FieldNames": "Default",
+                                            "RenderingIdentifier": "main-content-left",
+                                            "DynamicPlaceholderId": "12",
+                                            "Styles": "pe-md-5 mt-3 mt-md-0"
+                                          },
+                                          "placeholders": {
+                                            "container-{*}": [
+                                              {
+                                                "uid": "72381dca-4704-43fe-8eb4-212245ff7158",
+                                                "componentName": "RichText",
+                                                "dataSource": "/sitecore/content/TransportWebsite/TransportWebsite/Home/News and resources/News/Public transport works this spring/Data/Text 1",
+                                                "params": {
+                                                  "GridParameters": "col-12",
+                                                  "FieldNames": "Default",
+                                                  "DynamicPlaceholderId": "1"
+                                                },
+                                                "fields": {
+                                                  "Text": {
+                                                    "value": "<div class=\"ck-content\"><p>As part of Victoria’s Big Build, major construction has finished on three of the five new Metro Tunnel underground stations and trial operations will continue ahead of opening. Works continue to remove dangerous and congested level crossings.&nbsp;</p><p>As the West Gate Tunnel nears completion, works continues to widen the West Gate Freeway from 8 to 12 lanes, while road upgrades are in progress across the north and south east as part of Big Build Roads. Tunnelling continues on the North East Link and upgrades are underway on the Eastern Freeway and M80 Ring Road. &nbsp;<br />Early works will continue to prepare for tunnelling on Suburban Rail Loop East, while Yarra Trams track renewal will take place on various routes across the tram network.&nbsp;</p><p>For more information about planned disruptions, visit <a href=\"https://bigbuild.vic.gov.au/\" target=\"_blank\" title=\"Victoria’s Big Build\">Victoria’s Big Build</a>.&nbsp;</p><h2>Major disruptions</h2><p>Be sure to plan ahead and allow more time for travel during major works this autumn, especially if you’re travelling over the school holiday period.</p><p>To avoid delays:</p><ul><li>plan your journey before you travel using our <a href=\"https://transport.vic.gov.au/journey\">journey planner</a></li><li>allow extra travel time</li><li>consider alternatives if you can and travel outside of peak times where possible.</li></ul><p>There are also smaller disruptions for essential works happening across the network.</p><p>See <a href=\"https://transport.vic.gov.au/disruptions/disruptions-information\">Disruptions</a> for information on all current and upcoming disruptions across Victoria.&nbsp;</p><h2>Metropolitan trains</h2><h3>September</h3><p><strong>Cranbourne and Pakenham lines</strong></p><ul><li>Buses replace trains between Parliament, Caulfield and Westall from 9pm Friday 29 August to 5am Saturday 6 September 2025.</li><li>Buses replace trains between Parliament, Caulfield and</li></ul><p><strong>Sunbury line</strong></p><ul><li>Buses replace trains between North Melbourne and Sunshine from 8 September to 11 September 2025.</li><li>Buses replace trains between North Melbourne and Sunshine from 11:30pm Saturday 20 September to last train Wednesday 24 September 2025.</li></ul><p><strong>Werribee and Williamstown lines</strong></p><ul><li>Buses replace trains between North Melbourne and Newport from 11:30pm Saturday 20 September to last train Wednesday 24 September 2025.</li></ul><p><strong>Hurstbridge line</strong></p><ul><li>Buses replace trains between Macleod and Eltham from Friday 12 September to Sunday 14 September 2025.</li><li>Buses replace trains between Heidelberg and Eltham from Tuesday 30 September to Thursday 30 October 2025.</li></ul><h3>October</h3><p><strong>Sunbury line</strong></p><ul><li>Buses replace trains between North Melbourne and Sunshine from 8:30pm 2 October to last train 2 October 2025.</li><li>Buses replace trains between North Melbourne and Sunshine from 1:30am Saturday 4 October to last train Sunday 5 October 2025.</li><li>Buses replace trains between North Melbourne and Sunshine from 1:30am Saturday 25 October to last train Sunday 26 October 2025.</li></ul><p><strong>Cranbourne and Pakenham lines</strong></p><ul><li>Passengers change at Caulfield station for Frankston line services to and from the city from 1am Saturday 4 October to last train Sunday 5 October 2025.</li><li>Buses replace trains between Caulfield and Westall from 8:30pm 2 October to last train 3 October 2025.</li><li>Passengers change at Caulfield Station for Frankston line trains to and from the city from 1:30am Saturday 25 October to last train Sunday 26 October 2025.</li></ul><p><strong>Frankston line</strong></p><ul><li>Buses replace trains between Caulfield and Mordialloc from 9pm Friday 24 October to last train Sunday 26 October 2025.</li></ul><h3>November</h3><p><strong>Hurstbridge line</strong></p><ul><li>Buses replace trains between Heidelberg and Eltham from Friday 28 November to Sunday 30 December 2025.</li></ul><h2>Trams</h2><p>See <a href=\"https://transport.vic.gov.au/disruptions/disruptions-information\">Disruptions</a> for information on all current and upcoming disruptions across Victoria.&nbsp;</p><h3>October</h3><p><strong>Route 19</strong></p><ul><li>Shortened services from East Brunswick to Stop 9 Haymarket from 7pm Monday 6 October to 4:30am Monday 27 October 2025.</li><li>On Friday and Saturday night buses will replace trams from Stop 9 Haymarket to Stop 1 Flinders Street.</li></ul><p><strong>Routes 57 &amp; 59</strong></p><ul><li>Route 59 trams divert via Peel Street and William Street from 7pm Monday 6 October to 4:30am Monday 27 October 2025.</li><li>Route 57 trams will run a shortened service from West Maribyrnong to Stop 9 Howard Street from 7pm Monday 6 October to 4:30am Monday 27 October 2025.</li></ul><h2>Regional trains</h2><p>See <a href=\"https://transport.vic.gov.au/disruptions/disruptions-information\">Disruptions</a> for information on all current and upcoming disruptions across Victoria.&nbsp;</p><h3>October</h3><h4>Gippsland line</h4><p>Coaches replace trains between Southern Cross and East Pakenham from 9pm Friday 10 October to last train Thursday 23 October 2025.&nbsp;</p></div>"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ],
+                                      "column-2-{*}": [
+                                        {
+                                          "uid": "da843d4c-e2e6-495a-a7cf-a174c48e3447",
+                                          "componentName": "Container",
+                                          "dataSource": "",
+                                          "params": {
+                                            "GridParameters": "col-12",
+                                            "FieldNames": "Default",
+                                            "RenderingIdentifier": "onthisPageContainer",
+                                            "DynamicPlaceholderId": "13",
+                                            "Styles": "mt-3 mt-md-0"
+                                          },
+                                          "placeholders": {
+                                            "container-{*}": [
+                                              {
+                                                "uid": "58f51303-9a8c-45c5-b884-800726132a5a",
+                                                "componentName": "BYOCWrapper",
+                                                "dataSource": "",
+                                                "params": {
+                                                  "ComponentName": "OnThisPage",
+                                                  "ComponentLabel": "OnThisPage",
+                                                  "GridParameters": "col-12",
+                                                  "DynamicPlaceholderId": "14",
+                                                  "FieldNames": "Default"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ],
+                                      "column-3-{*}": [],
+                                      "column-4-{*}": [],
+                                      "column-5-{*}": [],
+                                      "column-6-{*}": [],
+                                      "column-7-{*}": [],
+                                      "column-8-{*}": []
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "uid": "1851b623-ad76-42d4-a0aa-5a07c1bd8e46",
+                              "componentName": "Container",
+                              "dataSource": "",
+                              "params": {
+                                "GridParameters": "col-12",
+                                "FieldNames": "Default",
+                                "DynamicPlaceholderId": "7",
+                                "Styles": "col-sm-6"
+                              },
+                              "placeholders": {
+                                "container-{*}": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

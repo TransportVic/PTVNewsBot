@@ -69,6 +69,7 @@ export async function extractArticles() {
     description: article.meta_description,
     date: moment(article.published_timestamp).format('YYYY-MM-DD'),
     eventImage: article.image_url || null,
-    link: article.url
+    link: article.url,
+    id: article.id
   }))
 }

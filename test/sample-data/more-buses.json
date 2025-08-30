@@ -1,0 +1,363 @@
+{
+  "data": {
+    "item": {
+      "rendered": {
+        "sitecore": {
+          "context": {
+            "pageEditing": false,
+            "site": {
+              "name": "TransportWebsite"
+            },
+            "pageState": "normal",
+            "editMode": "chromes",
+            "language": "en",
+            "itemPath": "/news-and-resources/news/more-buses-more-often-on-route-513-514-and-517"
+          },
+          "route": {
+            "name": "More buses more often on route 513 514 and 517",
+            "displayName": "More buses more often on route 513 514 and 517",
+            "fields": {
+              "Content": {
+                "value": "From 7 September 2025, we&rsquo;re adding 174 weekly trips across routes 513, 514 and 517 with buses running later into the evening most days of the week."
+              },
+              "Subtitle": {
+                "value": ""
+              },
+              "Title": {
+                "value": "More buses more often on route 513, 514 and 517"
+              },
+              "Help and Support Topic": {
+                "value": ""
+              },
+              "News Category": {
+                "value": ""
+              },
+              "Project Status": {
+                "value": ""
+              },
+              "Published Date": {
+                "value": "2025-08-14T14:00:00Z"
+              },
+              "NavigationTitle": {
+                "value": "More buses more often on route 513 514 and 517"
+              },
+              "NavigationClass": null,
+              "NavigationFilter": [],
+              "Page Design": null,
+              "SxaTags": [],
+              "URL": {
+                "value": {
+                  "href": ""
+                }
+              },
+              "Featured Image": {
+                "value": {}
+              },
+              "Mode Identity": {
+                "value": "Public Transport"
+              },
+              "Mode of Transport": [
+                {
+                  "id": "e46ca7a9-d546-43ab-a9a2-07bd9bb5174b",
+                  "url": "https://localhost/sitecore/templates/user-defined/transportwebsite/modes/enums/modeoftransport/public-transport",
+                  "name": "Public Transport",
+                  "displayName": "Public Transport",
+                  "fields": {
+                    "Value": {
+                      "value": "Public Transport"
+                    }
+                  }
+                }
+              ],
+              "Primary Keywords": {
+                "value": "route, 513, 514, 517"
+              },
+              "Secondary Keywords": {
+                "value": "Glenroy, Heidelberg, Greensborough, Rosanna and Eltham stations."
+              },
+              "SEODescription": {
+                "value": ""
+              },
+              "SEOImage": {
+                "value": {}
+              },
+              "SEOTitle": {
+                "value": "More buses more often on route 513 514 and 517"
+              },
+              "Hide Sub Title": {
+                "value": false
+              },
+              "Show Background Pattern": {
+                "value": false
+              },
+              "OverrideImage": {
+                "value": {}
+              },
+              "Quick Link Icon": {
+                "value": {}
+              },
+              "Quick Link Title": {
+                "value": ""
+              },
+              "Quick Link Body": {
+                "value": ""
+              },
+              "Show chatbot": {
+                "value": "Hide chatbot"
+              }
+            },
+            "databaseName": "master",
+            "deviceId": "fe5d7fdf-89c0-4d99-9aa3-b5fbd009c9f3",
+            "itemId": "547ba758-af84-4bc8-b749-9c33922b888f",
+            "itemLanguage": "en",
+            "itemVersion": 3,
+            "layoutId": "96e5f4ba-a2cf-4a4c-a4e7-64da88226362",
+            "templateId": "9f1f7142-fab5-4e4b-8024-ffb207852b7f",
+            "templateName": "Content Page",
+            "placeholders": {
+              "headless-main": [
+                {
+                  "uid": "d553fb0a-93e5-4030-82b4-98511a2a0e67",
+                  "componentName": "PartialDesignDynamicPlaceholder",
+                  "dataSource": "",
+                  "params": {
+                    "sid": "{D553FB0A-93E5-4030-82B4-98511A2A0E67}",
+                    "ph": "headless-main",
+                    "sig": "sxa-contentpagemain"
+                  },
+                  "placeholders": {
+                    "sxa-contentpagemain": [
+                      {
+                        "uid": "503de15e-2151-4dd5-9b35-1d4001118ff6",
+                        "componentName": "Container",
+                        "dataSource": "",
+                        "params": {
+                          "GridParameters": "col-12",
+                          "FieldNames": "Default",
+                          "DynamicPlaceholderId": "1"
+                        },
+                        "placeholders": {
+                          "container-{*}": [
+                            {
+                              "uid": "d399e0a2-dbca-469b-9c24-1ce359971a91",
+                              "componentName": "Container",
+                              "dataSource": "",
+                              "params": {
+                                "GridParameters": "col-12",
+                                "FieldNames": "Default",
+                                "Styles": "container-gray-background cover-background",
+                                "DynamicPlaceholderId": "5"
+                              },
+                              "placeholders": {
+                                "container-{*}": [
+                                  {
+                                    "uid": "262bba06-1f54-4c5e-ba3f-6924fffa3681",
+                                    "componentName": "Container",
+                                    "dataSource": "",
+                                    "params": {
+                                      "GridParameters": "col-12",
+                                      "FieldNames": "Default",
+                                      "DynamicPlaceholderId": "10"
+                                    },
+                                    "placeholders": {
+                                      "container-{*}": [
+                                        {
+                                          "uid": "527b50b9-572f-4c81-8f1e-35fdf110491c",
+                                          "componentName": "HeroComponent",
+                                          "dataSource": "",
+                                          "params": {
+                                            "GridParameters": "col-12",
+                                            "FieldNames": "Default"
+                                          },
+                                          "fields": {
+                                            "data": {
+                                              "item": {
+                                                "name": "More buses more often on route 513 514 and 517",
+                                                "title": {
+                                                  "value": "More buses more often on route 513, 514 and 517"
+                                                },
+                                                "navigationTitle": {
+                                                  "value": "More buses more often on route 513 514 and 517"
+                                                },
+                                                "url": {
+                                                  "value": "/news-and-resources/news/more-buses-more-often-on-route-513-514-and-517"
+                                                },
+                                                "ancestors": [
+                                                  {
+                                                    "name": "News",
+                                                    "title": {
+                                                      "value": "News"
+                                                    },
+                                                    "navigationTitle": {
+                                                      "value": "News"
+                                                    },
+                                                    "url": {
+                                                      "value": "/news-and-resources/news"
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "News and resources",
+                                                    "title": {
+                                                      "value": "News and resources"
+                                                    },
+                                                    "navigationTitle": {
+                                                      "value": "News and resources"
+                                                    },
+                                                    "url": {
+                                                      "value": "/news-and-resources"
+                                                    }
+                                                  },
+                                                  {
+                                                    "name": "Home",
+                                                    "title": {
+                                                      "value": "Home"
+                                                    },
+                                                    "navigationTitle": {
+                                                      "value": "Home"
+                                                    },
+                                                    "url": {
+                                                      "value": "/"
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "uid": "2084a3ca-a643-411d-bf06-a9217cc3823a",
+                              "componentName": "Container",
+                              "dataSource": "",
+                              "params": {
+                                "GridParameters": "col-12",
+                                "FieldNames": "Contained",
+                                "RenderingIdentifier": "maincontentContainer",
+                                "DynamicPlaceholderId": "2",
+                                "Styles": "mt-2 mt-md-4"
+                              },
+                              "placeholders": {
+                                "container-{*}": [
+                                  {
+                                    "uid": "02340b6d-5ff2-4880-9eb7-3a54cc81a532",
+                                    "componentName": "ColumnSplitter",
+                                    "dataSource": "",
+                                    "params": {
+                                      "ColumnWidth1": "col-12 col-md-8 col-xl-8",
+                                      "ColumnWidth2": "col-12 col-md-4",
+                                      "GridParameters": "col-12",
+                                      "SplitterSize": "2",
+                                      "EnabledPlaceholders": "2,1",
+                                      "RenderingIdentifier": "contentPageDesignMainContentsection",
+                                      "FieldNames": "Default",
+                                      "DynamicPlaceholderId": "8",
+                                      "Styles": "flex-row-reverse "
+                                    },
+                                    "placeholders": {
+                                      "column-1-{*}": [
+                                        {
+                                          "uid": "c2642de1-5cd0-4757-98d2-6bfe27a4799c",
+                                          "componentName": "Container",
+                                          "dataSource": "",
+                                          "params": {
+                                            "GridParameters": "col-12",
+                                            "FieldNames": "Default",
+                                            "RenderingIdentifier": "main-content-left",
+                                            "DynamicPlaceholderId": "12",
+                                            "Styles": "pe-md-5 mt-3 mt-md-0"
+                                          },
+                                          "placeholders": {
+                                            "container-{*}": [
+                                              {
+                                                "uid": "df351012-c04a-40dc-b8ab-e8e375961fa1",
+                                                "componentName": "RichText",
+                                                "dataSource": "/sitecore/content/TransportWebsite/TransportWebsite/Home/News and resources/News/More buses more often on route 513 514 and 517/Data/Text 1",
+                                                "params": {
+                                                  "GridParameters": "col-12",
+                                                  "FieldNames": "Default",
+                                                  "DynamicPlaceholderId": "1"
+                                                },
+                                                "fields": {
+                                                  "Text": {
+                                                    "value": "<div class=\"ck-content\"><p>New timetables will spread trips more evenly across the day, giving you more frequent and regular services.&nbsp;<br />These improvements make it easier to get to work, go shopping or catch the train at Glenroy, Heidelberg, Greensborough, Rosanna and Eltham stations.</p><p>To plan your journey:&nbsp;</p><ul><li>Download the <a href=\"https://transport.vic.gov.au/plan-a-journey/public-transport-tools-and-resources/travel-tips-and-resources/mobile-apps-for-public-transport\">PTV app</a></li><li>Use the <a href=\"https://transport.vic.gov.au/journey\">journey planner</a></li><li>Check the new Route <a href=\"https://transport.vic.gov.au/route/timetable/15990/513\" target=\"_blank\" title=\"513\">513</a>, <a href=\"https://transport.vic.gov.au/route/timetable/15992/514\" target=\"_blank\" title=\"514\">514</a> and <a href=\"https://transport.vic.gov.au/route/timetable/850/517\" target=\"_blank\" title=\"517\">517</a> timetables &nbsp;</li><li>or call <a href=\"tel:1800 800 007\">1800 800 007</a>.</li></ul><h2>What’s changing for each route?</h2><h3>Route 513 Eltham – Glenroy via Lower Plenty</h3><ul><li>44 new weekly services.</li><li>Weekend services will run later until 10:52 pm, instead of 9:35 pm.</li><li>Weekend services will improve to run every 40 minutes on average.</li><li>On weekends, Route 513 will operate as a short route between Eltham and Heidelberg only.</li></ul><h3>Route 514 Eltham – Glenroy via Greensborough</h3><ul><li>48 new weekly services.</li><li>Saturday services will run later until 10:06 pm, instead of 8:49 pm.</li><li>Sunday services will run later until 9:23 pm, instead of 8:40 pm.</li><li>Weekend services will improve to run every 40 minutes on average.</li></ul><h3>Route 517 Northland – St Helena via Viewbank and Greensborough Station</h3><ul><li>18 new weekly services.</li><li>Weekday services will start earlier at 5:41 am, instead of 6:06 am.</li><li>Saturday services will run later until 10:20 pm, instead of 9:47 pm.</li><li>Sunday services will run later until 9:50 pm, instead of 9:37 pm.</li></ul><p>&nbsp;</p><p><a href=\"https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/Forms/route-513-Eltham---Glenroy-via-Lower-Plenty.pdf\">Download the Route 513 timetable (PDF)</a></p><p><a href=\"https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/Forms/route-514-Eltham---Glenroy-via-Greensborough.pdf\">Download the Route 514 timetable (PDF)</a></p><p><a href=\"https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/Forms/route-517-Northland---St-Helena.pdf\">Download the Route 517 timetable (PDF)</a></p></div>"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ],
+                                      "column-2-{*}": [
+                                        {
+                                          "uid": "da843d4c-e2e6-495a-a7cf-a174c48e3447",
+                                          "componentName": "Container",
+                                          "dataSource": "",
+                                          "params": {
+                                            "GridParameters": "col-12",
+                                            "FieldNames": "Default",
+                                            "RenderingIdentifier": "onthisPageContainer",
+                                            "DynamicPlaceholderId": "13",
+                                            "Styles": "mt-3 mt-md-0"
+                                          },
+                                          "placeholders": {
+                                            "container-{*}": [
+                                              {
+                                                "uid": "58f51303-9a8c-45c5-b884-800726132a5a",
+                                                "componentName": "BYOCWrapper",
+                                                "dataSource": "",
+                                                "params": {
+                                                  "ComponentName": "OnThisPage",
+                                                  "ComponentLabel": "OnThisPage",
+                                                  "GridParameters": "col-12",
+                                                  "DynamicPlaceholderId": "14",
+                                                  "FieldNames": "Default"
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ],
+                                      "column-3-{*}": [],
+                                      "column-4-{*}": [],
+                                      "column-5-{*}": [],
+                                      "column-6-{*}": [],
+                                      "column-7-{*}": [],
+                                      "column-8-{*}": []
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "uid": "1851b623-ad76-42d4-a0aa-5a07c1bd8e46",
+                              "componentName": "Container",
+                              "dataSource": "",
+                              "params": {
+                                "GridParameters": "col-12",
+                                "FieldNames": "Default",
+                                "DynamicPlaceholderId": "7",
+                                "Styles": "col-sm-6"
+                              },
+                              "placeholders": {
+                                "container-{*}": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

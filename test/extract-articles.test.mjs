@@ -41,4 +41,9 @@ describe('extractArticles', () => {
     expect(this.articles[0].link).to.equal('https://transport.vic.gov.au/news-and-resources/news/industrial-action-to-disrupt-buses-in-early-september')
     expect(this.articles[1].link).to.equal('https://transport.vic.gov.au/news-and-resources/news/public-transport-works-this-spring')
   })
+
+  it('includes the article GraphQL id', function () {
+    expect(this.articles[0].id).to.equal('931fd71f-ac29-4c10-ab07-cdc263a1c614')
+    expect(this.articles[1].id).to.equal('b58827ec-f0da-4b73-ab86-486c7a1a0515')
+  })
 })
