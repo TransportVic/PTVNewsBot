@@ -1,13 +1,18 @@
 import { parseArticle } from '../parse-site.mjs'
 import { expect } from 'chai'
-import articles from './sample-data/articles.json' with { type: 'json' }
+import springWorks from './sample-data/spring-works.json' with { type: 'json' }
+import moreBuses from './sample-data/more-buses.json' with { type: 'json' }
 import nock from 'nock'
 
 describe('parseArticles', () => {
   beforeEach(async function () {
-    nock('https://edge.sitecorecloud.io/api/graphql/v1')
+    nock('https://edge.sitecorecloud.io')
       .post('/api/graphql/v1')
-      .reply(200, articles)
+      .reply(200, springWorks)
+
+    nock('https://edge.sitecorecloud.io')
+      .post('/api/graphql/v1')
+      .reply(200, moreBuses)
 
     this.springArticle = await parseArticle({
       title: 'Public transport works this spring',
@@ -29,10 +34,16 @@ describe('parseArticles', () => {
   })
 
   it('gets the article text', function () {
-    expect(this.article.articleText).to.contain('Industrial action disrupting some bus routes in Melbourne, Geelong and Ballarat from Monday 1 to Friday 5 September has been withdrawn.')
+    expect(this.springArticle.articleText).to.contain('Buses replace trains between Parliament, Caulfield and Westall from 9pm Friday 29 August to 5am Saturday 6 September 2025.')
+    expect(this.moreBusesArticle.articleText).to.contain('On weekends, Route 513 will operate as a short route between Eltham and Heidelberg only.')
   })
 
   it('gets a list of PDFs for archiving', function () {
-    expect(this.article.pdfLinks).to.deep.equal([])
+    expect(this.springArticle.pdfLinks).to.deep.equal([])
+    expect(this.moreBusesArticle.pdfLinks).to.deep.equal([
+      'https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/Forms/route-513-Eltham---Glenroy-via-Lower-Plenty.pdf',
+      'https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/Forms/route-514-Eltham---Glenroy-via-Greensborough.pdf',
+      'https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/Forms/route-517-Northland---St-Helena.pdf'
+    ])
   })
 })
