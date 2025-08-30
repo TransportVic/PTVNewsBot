@@ -71,21 +71,4 @@ export async function extractArticles() {
     eventImage: article.image_url || null,
     link: article.url
   }))
-  // let $ = load(pageHTML)
-  // let pageURL = url.parse(pageURLStr)
-
-  // let articles = $('.MediaHolderColumn__content')
-  // let output = []
-
-  // for (let articleE of articles) {
-  //   let article = $(articleE)
-  //   let link = $('a.card-link', article).attr('href')
-
-  //   let linkURL = url.parse(link)
-  //   if (!linkURL.host) link = `${pageURL.protocol}//${pageURL.host}${linkURL.pathname}`
-
-  //   if (link.includes(pageURLStr)) output.push(link)
-  // }
-  
-  // return output
 }
