@@ -3393,12 +3393,6 @@
     "date": "2025-06-27"
   },
   {
-    "link": "https://www.ptv.vic.gov.au/footer/about-ptv/improvements-and-projects/bus-and-coach/yarram-to-melbourne-coach/",
-    "title": "Yarram to Melbourne coach service consultation",
-    "description": "We heard from locals and visitors on how to increase services on the V/Line Coach services between Yarram, Leongatha, Koo Wee Rup and Melbourne.",
-    "date": "2025-07-01"
-  },
-  {
     "link": "https://www.ptv.vic.gov.au/news-and-events/news/2025/07/10/industrial-action-to-disrupt-bus-services-on-thursday-10-july/",
     "title": "Industrial action to disrupt bus services on Thursday 10 July",
     "description": "We are aware of planned industrial action impacting bus services operated by CDC and Kinetic on Thursday 10 July potentially affecting a significant number of routes across Melbourne as well as bus services in Geelong, Mildura and Ballarat.",
@@ -3913,11 +3907,6 @@
     "date": "2018-08-26"
   },
   {
-    "link": "https://www.ptv.vic.gov.au/news-and-events/news/2025/08/08/more-tarnsport-connections-to-melbourne-airport/",
-    "title": "More tarnsport connections to Melbourne Airport",
-    "description": "From 31 August 2025, the new Eastern Express service will provide Melbourne’s fast-growing eastern suburbs like Box Hill, Doncaster and Watsonia with direct and easy access to Melbourne Airport, with regular departures seven days a week.",
-    "date": "2025-08-08"
-  }, {
     "title": "Industrial action withdrawn",
     "description": "Buses services in Melbourne, Geelong and Ballarat run as normal.",
     "date": "2025-08-25",
@@ -3954,5 +3943,50 @@
     "description": "From 14 September 2025, we’re adding additional weekend capacity for Bendigo Line passengers with more trains running with six carriages.",
     "date": "2025-08-15",
     "link": "https://transport.vic.gov.au/news-and-resources/news/more-weekend-seats-for-the-bendigo-line"
+  },
+  {
+    "title": "More buses, more often on Route 390",
+    "description": "From 7 September 2025, Route 390 will have 140 new weekly trips and run later into the evening most days of the week.",
+    "date": "2025-08-15",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/more-buses-more-often-on-route-390"
+  },
+  {
+    "title": "Care Expo Melbourne",
+    "description": "Public transport for Care Expo on Friday 15 and Saturday 16 August 2025",
+    "date": "2025-08-14",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/care-expo-melbourne"
+  },
+  {
+    "title": "PTV has moved to Transport Victoria!",
+    "description": "We've made it easier for everyone to access transport information.",
+    "date": "2025-08-14",
+    "eventImageFile": "5ee43b840e71454fd2b6403f0491b1c8d00c9c0f",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/ptv-is-moving-to-transport-victoria"
+  },
+  {
+    "title": "Southern Cross Station escalator upgrade",
+    "description": "We’re upgrading the escalators on the Collins Street end of the metropolitan platforms 9–14 to make them more efficient and reliable.",
+    "date": "2025-08-12",
+    "eventImageFile": "eabd47761304f9c46ea2cd913fe0dc4d6532bca0",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/southern-cross-station-escalator-upgrade"
+  },
+  {
+    "title": "More transport connections to Melbourne Airport",
+    "description": "Two new Skybus services will provide faster airport access for people in the east, west and regional Victoria.",
+    "date": "2025-08-08",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/more-transport-connections-to-melbourne-airport"
+  },
+  {
+    "title": "Yarram to Melbourne coach service consultation",
+    "description": "We heard from locals and visitors on how to increase services on the V/Line Coach services between Yarram, Leongatha, Koo Wee Rup and Melbourne.",
+    "date": "2025-07-01",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/yarram-to-melbourne-coach-service-consultation"
+  },
+  {
+    "title": "2025 Formula 1 Australian Grand Prix",
+    "description": "Find out about catching the tram to the 2025 Formula 1 Australian Grand Prix and road closures around Albert Park and in the Melbourne CBD.",
+    "date": "2025-03-13",
+    "eventImageFile": "103efc230120fc2e7e759577610dc49169ef33ac",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/2025-formula-1-australian-grand-prix"
   }
 ]
