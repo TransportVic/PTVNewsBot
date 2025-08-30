@@ -26,10 +26,15 @@ export async function parseArticle(article) {
     allowedAttributes: {}
   })
 
+  const cdnLinks = articleContent.match(/https:\/\/edge.sitecorecloud.io\/[^"]+/g) || []
+  const pdfLinks = cdnLinks.filter(link => link.endsWith('.pdf'))
+  const otherLinks = cdnLinks.filter(link => !link.endsWith('.pdf'))
+
   return {
     ...article,
     articleContent,
     articleText,
-    pdfLinks: []
+    pdfLinks: pdfLinks,
+    imgLinks: otherLinks
   }
 }
