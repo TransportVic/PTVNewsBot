@@ -37,7 +37,7 @@ let baseHTML = `<!DOCTYPE html>
     {2}
     <article>
       <h1>{0}</h1>
-      {4}
+      {3}
     </article>
   </body>
   </html>`
@@ -75,7 +75,7 @@ async function saveArticleData(articleData) {
 
   let indexFile = path.join(articleDir, 'index.html')
   let dataFile = path.join(__dirname, 'raw-articles', articleID + '.json')
-  
+
   let eventImageChecksum = null
   if (articleData.eventImage) {
     eventImageChecksum = await saveAndChecksum(articleData.eventImage, 'banner', '.jpg')
@@ -116,8 +116,7 @@ async function saveArticle(url) {
   let data = await parseArticle(url)
   
   if (!data) return null
-  
-  // data.date = moment().format('YYYY-MM-DD')
+
   data.articleID = await saveArticleData(data)
 
   return data

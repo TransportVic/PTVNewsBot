@@ -42,16 +42,15 @@ async function fetchArticles() {
     if (twitterKeys) await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
 
     articlesSeen.push({
-      link: article,
       title: data.title,
       description: data.articleDescription,
       date: data.date,
-      eventImageFile: data.eventImageFile
+      eventImageFile: data.eventImageFile,
+      link: data.link
     })
 
-    fs.writeFile(path.join(__dirname, '../articles/articles.json'), JSON.stringify(articlesSeen, null, 2))
+    await fs.writeFile(path.join(__dirname, '../articles/articles.json'), JSON.stringify(articlesSeen, null, 2))
   }
 }
-
 
 await fetchArticles()
