@@ -30,4 +30,15 @@ describe('extractArticles', () => {
     expect(this.articles[1].date).to.equal('2025-08-25')
     expect(this.articles[2].date).to.equal('2025-08-19')
   })
+
+  it('contains the event image', function () {
+    expect(this.articles[0].eventImage).to.equal('https://edge.sitecorecloud.io/stategovernc45d-cftw-production-c9ca/media/Project/TransportWebsite/shared/demo/metro-bus-stop-bays-shelter-flag-hybrid.jpg?h=386&iar=0&w=580')
+    expect(this.articles[1].eventImage).to.exist
+    expect(this.articles[2].eventImage).to.not.exist
+  })
+
+  it('includes the article link', function () {
+    expect(this.articles[0].link).to.equal('https://transport.vic.gov.au/news-and-resources/news/industrial-action-to-disrupt-buses-in-early-september')
+    expect(this.articles[1].link).to.equal('https://transport.vic.gov.au/news-and-resources/news/public-transport-works-this-spring')
+  })
 })
