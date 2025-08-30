@@ -1,11 +1,12 @@
-import fetch from "node-fetch"
+import fetch from 'node-fetch'
 import sanitize from 'sanitize-html'
 
 export async function parseArticle(article) {
   const data = await (await fetch('https://edge.sitecorecloud.io/api/graphql/v1', {
     method: 'POST',
     headers: {
-      "sc_apikey": "NUN0MExCY1FVSzJGaXh2dEtWck1PemZwSHF0M1JsZCsxYk9lTFpqMkhzcz18c3RhdGVnb3Zlcm5jNDVkLWNmdHctcHJvZHVjdGlvbi1jOWNh"
+      sc_apikey: "NUN0MExCY1FVSzJGaXh2dEtWck1PemZwSHF0M1JsZCsxYk9lTFpqMkhzcz18c3RhdGVnb3Zlcm5jNDVkLWNmdHctcHJvZHVjdGlvbi1jOWNh",
+      'Content-Type': 'application/json'
     },
     body: JSON.stringify({
       query: `query { item(path: "${article.id}", language: "en") { rendered } }`

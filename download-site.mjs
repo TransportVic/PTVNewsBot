@@ -37,7 +37,6 @@ let baseHTML = `<!DOCTYPE html>
     {2}
     <article>
       <h1>{0}</h1>
-      <p>{3}</p>
       {4}
     </article>
   </body>
@@ -104,7 +103,6 @@ async function saveArticleData(articleData) {
   let indexHTML = baseHTML.format(articleData.title,
     articleData.articleDescription,
     articleData.eventImage ? `<img id="article-banner" src="/files/${eventImageChecksum}" />` : '',
-    articleData.category.join(' &gt; '),
     articleData.articleContent
   )
 
