@@ -24,6 +24,7 @@ const searchQuery = {
                 "filter": {
                   "type": "or",
                   "values": [
+                    "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibW9kZV9vZl90cmFuc3BvcnQiLCJ2YWx1ZSI6IkFjdGl2ZSBUcmFuc3BvcnQifQ==",
                     "facetid_eyJ0eXBlIjoiZXEiLCJuYW1lIjoibW9kZV9vZl90cmFuc3BvcnQiLCJ2YWx1ZSI6IlB1YmxpYyBUcmFuc3BvcnQifQ=="
                   ]
                 },
