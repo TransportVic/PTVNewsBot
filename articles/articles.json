@@ -3964,5 +3964,26 @@
     "description": "Public transport for National 4x4 Outdoors Show from Friday 22 August to Sunday 24 August 2025",
     "date": "2025-08-19",
     "link": "https://transport.vic.gov.au/news-and-resources/news/copy-of-national-4x4-outdoors-show"
+  },
+  {
+    "title": "Try Before You Ride",
+    "description": "The Victorian Government wants to make sure everyone can use public transport easily. Our Try Before You Ride events are here to help people feel more comfortable using trains, trams, buses, and accessible taxis.",
+    "date": "2025-09-03",
+    "eventImageFile": "ce3cb64403f4ca63975b729dd5236c6ddb3ab132",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/try-before-you-ride"
+  },
+  {
+    "title": "Major delays this weekend in the west and east",
+    "description": "A huge program of work is underway to improve and extend Melbourne's road and rail network. While we work there will be major disruptions in Melbourne’s west and east from Friday 29 August to Friday 5 September 2025.",
+    "date": "2025-08-27",
+    "eventImageFile": "6300e21c853d3a0032b024de21bc8bb12a82b635",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/major-delays-this-weekend-in-the-west-and-east"
+  },
+  {
+    "title": "Major works this spring",
+    "description": "Work on major transport infrastructure projects may impact the way you travel around Melbourne and across the state.",
+    "date": "2025-08-25",
+    "eventImageFile": "fca279bd86e64335b2bfe371a40190004369e344",
+    "link": "https://transport.vic.gov.au/news-and-resources/news/major-works-this-spring"
   }
 ]
