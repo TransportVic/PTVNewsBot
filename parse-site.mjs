@@ -13,7 +13,11 @@ export async function parseArticle(article) {
     })
   })).json()
 
-  const articleBody = data.data.item.rendered.sitecore.route.placeholders['headless-main'][0].placeholders['sxa-contentpagemain'][0].placeholders['container-{*}'][1].placeholders['container-{*}'][0].placeholders['column-1-{*}'][0].placeholders['container-{*}'][0].fields.Text.value
+  const container = data.data.item.rendered.sitecore.route.placeholders['headless-main'][0].placeholders['sxa-contentpagemain'][0].placeholders['container-{*}'][1].placeholders['container-{*}'][0].placeholders['column-1-{*}'][0].placeholders['container-{*}'][0]
+  const articleBody = container.fields ?
+      container.fields.Text.value
+    : container.placeholders['container-{*}'][0].fields.Text.value
+
   const articleContent = sanitize(articleBody, {
     allowedTags: sanitize.defaults.allowedTags.concat(['img']),
     allowedAttributes: {
@@ -25,7 +29,12 @@ export async function parseArticle(article) {
   const articleText = sanitize(articleBody, {
     allowedTags: [],
     allowedAttributes: {}
-  })
+  }).trim()
+
+  const articleDescription = sanitize(article.articleDescription, {
+    allowedTags: [],
+    allowedAttributes: {}
+  }).trim()
 
   const cdnLinks = articleContent.match(/https:\/\/edge.sitecorecloud.io\/[^"]+/g) || []
   const pdfLinks = cdnLinks.filter(link => link.endsWith('.pdf'))
@@ -33,6 +42,7 @@ export async function parseArticle(article) {
 
   return {
     ...article,
+    articleDescription,
     articleContent,
     articleText,
     pdfLinks: pdfLinks,
