@@ -1,6 +1,12 @@
 import fetch from 'node-fetch'
 import sanitize from 'sanitize-html'
 
+function traverse(container) {
+  if (container.componentName == 'RichText') return [container]
+  if (container.componentName == 'Container') return container.placeholders['container-{*}'].flatMap(traverse)
+  return []
+}
+
 export async function parseArticle(article) {
   const data = await (await fetch('https://edge.sitecorecloud.io/api/graphql/v1', {
     method: 'POST',
@@ -13,10 +19,9 @@ export async function parseArticle(article) {
     })
   })).json()
 
-  const container = data.data.item.rendered.sitecore.route.placeholders['headless-main'][0].placeholders['sxa-contentpagemain'][0].placeholders['container-{*}'][1].placeholders['container-{*}'][0].placeholders['column-1-{*}'][0].placeholders['container-{*}'][0]
-  const articleBody = container.fields ?
-      container.fields.Text.value
-    : container.placeholders['container-{*}'][0].fields.Text.value
+  const container = data.data.item.rendered.sitecore.route.placeholders['headless-main'][0].placeholders['sxa-contentpagemain'][0].placeholders['container-{*}'][1].placeholders['container-{*}'][0].placeholders['column-1-{*}'][0].placeholders['container-{*}']
+  const richTextElements = container.flatMap(traverse)
+  const articleBody = richTextElements.map(elem => elem.fields.Text.value).join('\n')
 
   const articleContent = sanitize(articleBody, {
     allowedTags: sanitize.defaults.allowedTags.concat(['img']),
