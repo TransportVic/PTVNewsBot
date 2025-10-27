@@ -78,6 +78,7 @@ export async function extractArticles() {
 
   let eventArticles = rawEventsData.data.item.rendered.sitecore.route.placeholders['headless-main'][0].placeholders['sxa-contentpagemain'][0].placeholders['container-{*}'][1].placeholders['container-{*}'][0].placeholders['column-1-{*}'][0].placeholders['container-{*}']
     .slice(2, -1)
+    .filter(c => c.componentName === 'Container' && c.placeholders['container-{*}'].length > 0)
     .flatMap(c => Object.values(c.placeholders['container-{*}'][0].placeholders))
     .flatMap(c => c)
     .map(c => ({
