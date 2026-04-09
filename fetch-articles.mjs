@@ -85,6 +85,7 @@ export async function extractArticles() {
       id: c.dataSource,
       ...c.fields.data.item
     }))
+    .filter(event => event.title && event.description)
 
   return newsData.widgets[0].content.filter(Boolean).map(article => ({
     title: article.name.trim(),
