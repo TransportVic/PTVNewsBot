@@ -39,7 +39,9 @@ async function fetchArticles() {
 
     console.log(`Found new article ${data.title}`)
 
-    if (twitterKeys) await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
+    try {
+      if (twitterKeys) await twitterClient.v2.tweet(`New post from PTV: ${data.title}\n\nRead more at: https://ptv-news.transportvic.me/articles/${data.articleID}`)
+    } catch (e) {}
 
     articlesSeen.push({
       title: data.title,
